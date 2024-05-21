@@ -1,0 +1,17 @@
+C:\Users\JesnerEliecerMelgara\source\repos\VentaConciertoAPI\Venta.SG\bin\Debug\net8.0\Venta.SG.deps.json
+C:\Users\JesnerEliecerMelgara\source\repos\VentaConciertoAPI\Venta.SG\bin\Debug\net8.0\Venta.SG.dll
+C:\Users\JesnerEliecerMelgara\source\repos\VentaConciertoAPI\Venta.SG\bin\Debug\net8.0\Venta.SG.pdb
+C:\Users\JesnerEliecerMelgara\source\repos\VentaConciertoAPI\Venta.SG\bin\Debug\net8.0\Venta.BC.dll
+C:\Users\JesnerEliecerMelgara\source\repos\VentaConciertoAPI\Venta.SG\bin\Debug\net8.0\Venta.BW.dll
+C:\Users\JesnerEliecerMelgara\source\repos\VentaConciertoAPI\Venta.SG\bin\Debug\net8.0\Venta.BC.pdb
+C:\Users\JesnerEliecerMelgara\source\repos\VentaConciertoAPI\Venta.SG\bin\Debug\net8.0\Venta.BW.pdb
+C:\Users\JesnerEliecerMelgara\source\repos\VentaConciertoAPI\Venta.SG\obj\Debug\net8.0\Venta.SG.csproj.AssemblyReference.cache
+C:\Users\JesnerEliecerMelgara\source\repos\VentaConciertoAPI\Venta.SG\obj\Debug\net8.0\Venta.SG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JesnerEliecerMelgara\source\repos\VentaConciertoAPI\Venta.SG\obj\Debug\net8.0\Venta.SG.AssemblyInfoInputs.cache
+C:\Users\JesnerEliecerMelgara\source\repos\VentaConciertoAPI\Venta.SG\obj\Debug\net8.0\Venta.SG.AssemblyInfo.cs
+C:\Users\JesnerEliecerMelgara\source\repos\VentaConciertoAPI\Venta.SG\obj\Debug\net8.0\Venta.SG.csproj.CoreCompileInputs.cache
+C:\Users\JesnerEliecerMelgara\source\repos\VentaConciertoAPI\Venta.SG\obj\Debug\net8.0\Venta.SG.csproj.Up2Date
+C:\Users\JesnerEliecerMelgara\source\repos\VentaConciertoAPI\Venta.SG\obj\Debug\net8.0\Venta.SG.dll
+C:\Users\JesnerEliecerMelgara\source\repos\VentaConciertoAPI\Venta.SG\obj\Debug\net8.0\refint\Venta.SG.dll
+C:\Users\JesnerEliecerMelgara\source\repos\VentaConciertoAPI\Venta.SG\obj\Debug\net8.0\Venta.SG.pdb
+C:\Users\JesnerEliecerMelgara\source\repos\VentaConciertoAPI\Venta.SG\obj\Debug\net8.0\ref\Venta.SG.dll
