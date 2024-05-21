@@ -8,9 +8,10 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'sig-in',
     pathMatch: 'full'
-  },  {
+  },
+  {
     path: 'sig-in',
     loadChildren: () => import('./pages/sig-in/sig-in.module').then( m => m.SigInPageModule)
   },
