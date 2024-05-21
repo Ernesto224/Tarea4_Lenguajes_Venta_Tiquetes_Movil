@@ -1,0 +1,392 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletosAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE54885-0ED3-47BF-A501-D5C8ACE25BE6}|..\\Ventan.DA\\Ventan.DA.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventan.da\\entidades\\usuarioda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE54885-0ED3-47BF-A501-D5C8ACE25BE6}|..\\Ventan.DA\\Ventan.DA.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventan.da\\entidades\\conciertoda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA278C02-6310-4D29-B5D2-92A5B01173EF}|VentaBoletosAPI.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventaboletosapi\\controllers\\ventanconciertocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA278C02-6310-4D29-B5D2-92A5B01173EF}|VentaBoletosAPI.csproj|solutionrelative:controllers\\ventanconciertocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA278C02-6310-4D29-B5D2-92A5B01173EF}|VentaBoletosAPI.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventaboletosapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EA278C02-6310-4D29-B5D2-92A5B01173EF}|VentaBoletosAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA278C02-6310-4D29-B5D2-92A5B01173EF}|VentaBoletosAPI.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventaboletosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA278C02-6310-4D29-B5D2-92A5B01173EF}|VentaBoletosAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046D5DA3-C9F5-4F5A-857B-B45858055924}|..\\Venta.BW\\Venta.BW.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\venta.bw\\cu\\gestionarventabw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046D5DA3-C9F5-4F5A-857B-B45858055924}|..\\Venta.BW\\Venta.BW.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\venta.bw\\interfaces\\bw\\igestionarventabw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046D5DA3-C9F5-4F5A-857B-B45858055924}|..\\Venta.BW\\Venta.BW.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\venta.bw\\interfaces\\da\\igestionarventada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE54885-0ED3-47BF-A501-D5C8ACE25BE6}|..\\Ventan.DA\\Ventan.DA.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventan.da\\acciones\\gestionarventada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE54885-0ED3-47BF-A501-D5C8ACE25BE6}|..\\Ventan.DA\\Ventan.DA.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventan.da\\contexto\\contextodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3CCEB9-1886-4BC7-A935-EF7033C5BBE0}|..\\Venta.BC\\Venta.BC.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\venta.bc\\modelos\\concierto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3CCEB9-1886-4BC7-A935-EF7033C5BBE0}|..\\Venta.BC\\Venta.BC.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\venta.bc\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3CCEB9-1886-4BC7-A935-EF7033C5BBE0}|..\\Venta.BC\\Venta.BC.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\venta.bc\\modelos\\asiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA278C02-6310-4D29-B5D2-92A5B01173EF}|VentaBoletosAPI.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventaboletosapi\\ventaboletosapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EA278C02-6310-4D29-B5D2-92A5B01173EF}|VentaBoletosAPI.csproj|solutionrelative:ventaboletosapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE54885-0ED3-47BF-A501-D5C8ACE25BE6}|..\\Ventan.DA\\Ventan.DA.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventan.da\\ventan.da.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3CCEB9-1886-4BC7-A935-EF7033C5BBE0}|..\\Venta.BC\\Venta.BC.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\venta.bc\\reglasdenegocio\\reglasasiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3CCEB9-1886-4BC7-A935-EF7033C5BBE0}|..\\Venta.BC\\Venta.BC.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\venta.bc\\reglasdenegocio\\reglasreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3CCEB9-1886-4BC7-A935-EF7033C5BBE0}|..\\Venta.BC\\Venta.BC.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\venta.bc\\reglasdenegocio\\reglasusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3CCEB9-1886-4BC7-A935-EF7033C5BBE0}|..\\Venta.BC\\Venta.BC.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\venta.bc\\modelos\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3CCEB9-1886-4BC7-A935-EF7033C5BBE0}|..\\Venta.BC\\Venta.BC.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\venta.bc\\reglasdenegocio\\renglasconcierto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046D5DA3-C9F5-4F5A-857B-B45858055924}|..\\Venta.BW\\Venta.BW.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\venta.bw\\venta.bw.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3CCEB9-1886-4BC7-A935-EF7033C5BBE0}|..\\Venta.BC\\Venta.BC.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\venta.bc\\venta.bc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EE24C8-1A98-4330-84A4-77874AEA1488}|..\\Venta.SG\\Venta.SG.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\venta.sg\\venta.sg.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VentanConciertoController.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletosAPI\\Controllers\\VentanConciertoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VentanConciertoController.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletosAPI\\Controllers\\VentanConciertoController.cs",
+              "RelativeToolTip": "Controllers\\VentanConciertoController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAgAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T06:49:02.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletosAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletosAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-21T06:45:59.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletosAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletosAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAABQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T06:41:09.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GestionarVentaBW.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BW\\CU\\GestionarVentaBW.cs",
+              "RelativeDocumentMoniker": "..\\Venta.BW\\CU\\GestionarVentaBW.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BW\\CU\\GestionarVentaBW.cs",
+              "RelativeToolTip": "..\\Venta.BW\\CU\\GestionarVentaBW.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T05:34:41.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IGestionarVentaBW.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BW\\Interfaces\\BW\\IGestionarVentaBW.cs",
+              "RelativeDocumentMoniker": "..\\Venta.BW\\Interfaces\\BW\\IGestionarVentaBW.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BW\\Interfaces\\BW\\IGestionarVentaBW.cs",
+              "RelativeToolTip": "..\\Venta.BW\\Interfaces\\BW\\IGestionarVentaBW.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T05:35:28.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConciertoDA.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Ventan.DA\\Entidades\\ConciertoDA.cs",
+              "RelativeDocumentMoniker": "..\\Ventan.DA\\Entidades\\ConciertoDA.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Ventan.DA\\Entidades\\ConciertoDA.cs",
+              "RelativeToolTip": "..\\Ventan.DA\\Entidades\\ConciertoDA.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T06:34:37.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioDA.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Ventan.DA\\Entidades\\UsuarioDA.cs",
+              "RelativeDocumentMoniker": "..\\Ventan.DA\\Entidades\\UsuarioDA.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Ventan.DA\\Entidades\\UsuarioDA.cs",
+              "RelativeToolTip": "..\\Ventan.DA\\Entidades\\UsuarioDA.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T06:11:34.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ContextoData.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Ventan.DA\\Contexto\\ContextoData.cs",
+              "RelativeDocumentMoniker": "..\\Ventan.DA\\Contexto\\ContextoData.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Ventan.DA\\Contexto\\ContextoData.cs",
+              "RelativeToolTip": "..\\Ventan.DA\\Contexto\\ContextoData.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABAAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T05:40:03.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GestionarVentaDA.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Ventan.DA\\Acciones\\GestionarVentaDA.cs",
+              "RelativeDocumentMoniker": "..\\Ventan.DA\\Acciones\\GestionarVentaDA.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Ventan.DA\\Acciones\\GestionarVentaDA.cs",
+              "RelativeToolTip": "..\\Ventan.DA\\Acciones\\GestionarVentaDA.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T05:39:42.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IGestionarVentaDA.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BW\\Interfaces\\DA\\IGestionarVentaDA.cs",
+              "RelativeDocumentMoniker": "..\\Venta.BW\\Interfaces\\DA\\IGestionarVentaDA.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BW\\Interfaces\\DA\\IGestionarVentaDA.cs",
+              "RelativeToolTip": "..\\Venta.BW\\Interfaces\\DA\\IGestionarVentaDA.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T05:37:46.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Concierto.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BC\\Modelos\\Concierto.cs",
+              "RelativeDocumentMoniker": "..\\Venta.BC\\Modelos\\Concierto.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BC\\Modelos\\Concierto.cs",
+              "RelativeToolTip": "..\\Venta.BC\\Modelos\\Concierto.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAA4AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T05:42:45.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BC\\Modelos\\Usuario.cs",
+              "RelativeDocumentMoniker": "..\\Venta.BC\\Modelos\\Usuario.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BC\\Modelos\\Usuario.cs",
+              "RelativeToolTip": "..\\Venta.BC\\Modelos\\Usuario.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T05:42:23.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Asiento.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BC\\Modelos\\Asiento.cs",
+              "RelativeDocumentMoniker": "..\\Venta.BC\\Modelos\\Asiento.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BC\\Modelos\\Asiento.cs",
+              "RelativeToolTip": "..\\Venta.BC\\Modelos\\Asiento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T05:45:51.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Ventan.DA",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Ventan.DA\\Ventan.DA.csproj",
+              "RelativeDocumentMoniker": "..\\Ventan.DA\\Ventan.DA.csproj",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Ventan.DA\\Ventan.DA.csproj",
+              "RelativeToolTip": "..\\Ventan.DA\\Ventan.DA.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-21T05:26:25.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VentaBoletosAPI",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletosAPI\\VentaBoletosAPI.csproj",
+              "RelativeDocumentMoniker": "VentaBoletosAPI.csproj",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletosAPI\\VentaBoletosAPI.csproj",
+              "RelativeToolTip": "VentaBoletosAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-21T05:28:35.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ReglasAsiento.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BC\\ReglasDeNegocio\\ReglasAsiento.cs",
+              "RelativeDocumentMoniker": "..\\Venta.BC\\ReglasDeNegocio\\ReglasAsiento.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BC\\ReglasDeNegocio\\ReglasAsiento.cs",
+              "RelativeToolTip": "..\\Venta.BC\\ReglasDeNegocio\\ReglasAsiento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T05:46:04.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ReglasReserva.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BC\\ReglasDeNegocio\\ReglasReserva.cs",
+              "RelativeDocumentMoniker": "..\\Venta.BC\\ReglasDeNegocio\\ReglasReserva.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BC\\ReglasDeNegocio\\ReglasReserva.cs",
+              "RelativeToolTip": "..\\Venta.BC\\ReglasDeNegocio\\ReglasReserva.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T05:45:19.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ReglasUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BC\\ReglasDeNegocio\\ReglasUsuario.cs",
+              "RelativeDocumentMoniker": "..\\Venta.BC\\ReglasDeNegocio\\ReglasUsuario.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BC\\ReglasDeNegocio\\ReglasUsuario.cs",
+              "RelativeToolTip": "..\\Venta.BC\\ReglasDeNegocio\\ReglasUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T05:44:49.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Reserva.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BC\\Modelos\\Reserva.cs",
+              "RelativeDocumentMoniker": "..\\Venta.BC\\Modelos\\Reserva.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BC\\Modelos\\Reserva.cs",
+              "RelativeToolTip": "..\\Venta.BC\\Modelos\\Reserva.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T05:43:58.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RenglasConcierto.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BC\\ReglasDeNegocio\\RenglasConcierto.cs",
+              "RelativeDocumentMoniker": "..\\Venta.BC\\ReglasDeNegocio\\RenglasConcierto.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BC\\ReglasDeNegocio\\RenglasConcierto.cs",
+              "RelativeToolTip": "..\\Venta.BC\\ReglasDeNegocio\\RenglasConcierto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T05:41:38.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Venta.BW",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BW\\Venta.BW.csproj",
+              "RelativeDocumentMoniker": "..\\Venta.BW\\Venta.BW.csproj",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BW\\Venta.BW.csproj",
+              "RelativeToolTip": "..\\Venta.BW\\Venta.BW.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-21T05:23:55.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Venta.BC",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BC\\Venta.BC.csproj",
+              "RelativeDocumentMoniker": "..\\Venta.BC\\Venta.BC.csproj",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.BC\\Venta.BC.csproj",
+              "RelativeToolTip": "..\\Venta.BC\\Venta.BC.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-21T05:21:40.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Venta.SG",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.SG\\Venta.SG.csproj",
+              "RelativeDocumentMoniker": "..\\Venta.SG\\Venta.SG.csproj",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\Venta.SG\\Venta.SG.csproj",
+              "RelativeToolTip": "..\\Venta.SG\\Venta.SG.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-21T05:25:41.338Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
