@@ -1,0 +1,342 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4BF563-EB0F-4219-86D3-6BFF0A5BB294}|VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventaboletoconciertoapi\\ventaboletoconciertoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA4BF563-EB0F-4219-86D3-6BFF0A5BB294}|VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI.csproj|solutionrelative:ventaboletoconciertoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1E1125-D70E-4365-B3BB-9EDCA0C09083}|Venta.BW\\Venta.BW.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventaboletoconciertoapi\\venta.bw\\interfaces\\bw\\igestionarventabw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1E1125-D70E-4365-B3BB-9EDCA0C09083}|Venta.BW\\Venta.BW.csproj|solutionrelative:venta.bw\\interfaces\\bw\\igestionarventabw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1E1125-D70E-4365-B3BB-9EDCA0C09083}|Venta.BW\\Venta.BW.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventaboletoconciertoapi\\venta.bw\\cu\\gestionarventabw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1E1125-D70E-4365-B3BB-9EDCA0C09083}|Venta.BW\\Venta.BW.csproj|solutionrelative:venta.bw\\cu\\gestionarventabw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4BF563-EB0F-4219-86D3-6BFF0A5BB294}|VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventaboletoconciertoapi\\ventaboletoconciertoapi\\ventaboletoconciertoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AA4BF563-EB0F-4219-86D3-6BFF0A5BB294}|VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI.csproj|solutionrelative:ventaboletoconciertoapi\\ventaboletoconciertoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{538691F6-E09C-4EF8-BF45-63B795B0C3F1}|Venta.DA\\Venta.DA.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventaboletoconciertoapi\\venta.da\\acciones\\gestionarventada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{538691F6-E09C-4EF8-BF45-63B795B0C3F1}|Venta.DA\\Venta.DA.csproj|solutionrelative:venta.da\\acciones\\gestionarventada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{538691F6-E09C-4EF8-BF45-63B795B0C3F1}|Venta.DA\\Venta.DA.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventaboletoconciertoapi\\venta.da\\contexto\\contextodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{538691F6-E09C-4EF8-BF45-63B795B0C3F1}|Venta.DA\\Venta.DA.csproj|solutionrelative:venta.da\\contexto\\contextodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4BF563-EB0F-4219-86D3-6BFF0A5BB294}|VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventaboletoconciertoapi\\ventaboletoconciertoapi\\ventaboletoconciertoapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{AA4BF563-EB0F-4219-86D3-6BFF0A5BB294}|VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI.csproj|solutionrelative:ventaboletoconciertoapi\\ventaboletoconciertoapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4BF563-EB0F-4219-86D3-6BFF0A5BB294}|VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventaboletoconciertoapi\\ventaboletoconciertoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AA4BF563-EB0F-4219-86D3-6BFF0A5BB294}|VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI.csproj|solutionrelative:ventaboletoconciertoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F757096-3E06-4E21-B9B2-392FC1AA3FC2}|Venta.BC\\Venta.BC.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventaboletoconciertoapi\\venta.bc\\logicadenegocio\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F757096-3E06-4E21-B9B2-392FC1AA3FC2}|Venta.BC\\Venta.BC.csproj|solutionrelative:venta.bc\\logicadenegocio\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F757096-3E06-4E21-B9B2-392FC1AA3FC2}|Venta.BC\\Venta.BC.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventaboletoconciertoapi\\venta.bc\\enumerados\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F757096-3E06-4E21-B9B2-392FC1AA3FC2}|Venta.BC\\Venta.BC.csproj|solutionrelative:venta.bc\\enumerados\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F757096-3E06-4E21-B9B2-392FC1AA3FC2}|Venta.BC\\Venta.BC.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventaboletoconciertoapi\\venta.bc\\constantes\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F757096-3E06-4E21-B9B2-392FC1AA3FC2}|Venta.BC\\Venta.BC.csproj|solutionrelative:venta.bc\\constantes\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F757096-3E06-4E21-B9B2-392FC1AA3FC2}|Venta.BC\\Venta.BC.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventaboletoconciertoapi\\venta.bc\\venta.bc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9F757096-3E06-4E21-B9B2-392FC1AA3FC2}|Venta.BC\\Venta.BC.csproj|solutionrelative:venta.bc\\venta.bc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{538691F6-E09C-4EF8-BF45-63B795B0C3F1}|Venta.DA\\Venta.DA.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventaboletoconciertoapi\\venta.da\\venta.da.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{538691F6-E09C-4EF8-BF45-63B795B0C3F1}|Venta.DA\\Venta.DA.csproj|solutionrelative:venta.da\\venta.da.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{393B93D5-857E-485D-B641-C188E007899B}|Venta.SG\\Venta.SG.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventaboletoconciertoapi\\venta.sg\\venta.sg.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{393B93D5-857E-485D-B641-C188E007899B}|Venta.SG\\Venta.SG.csproj|solutionrelative:venta.sg\\venta.sg.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1E1125-D70E-4365-B3BB-9EDCA0C09083}|Venta.BW\\Venta.BW.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventaboletoconciertoapi\\venta.bw\\venta.bw.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3A1E1125-D70E-4365-B3BB-9EDCA0C09083}|Venta.BW\\Venta.BW.csproj|solutionrelative:venta.bw\\venta.bw.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F757096-3E06-4E21-B9B2-392FC1AA3FC2}|Venta.BC\\Venta.BC.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventaboletoconciertoapi\\venta.bc\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F757096-3E06-4E21-B9B2-392FC1AA3FC2}|Venta.BC\\Venta.BC.csproj|solutionrelative:venta.bc\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{393B93D5-857E-485D-B641-C188E007899B}|Venta.SG\\Venta.SG.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventaboletoconciertoapi\\venta.sg\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{393B93D5-857E-485D-B641-C188E007899B}|Venta.SG\\Venta.SG.csproj|solutionrelative:venta.sg\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{538691F6-E09C-4EF8-BF45-63B795B0C3F1}|Venta.DA\\Venta.DA.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventaboletoconciertoapi\\venta.da\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{538691F6-E09C-4EF8-BF45-63B795B0C3F1}|Venta.DA\\Venta.DA.csproj|solutionrelative:venta.da\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1E1125-D70E-4365-B3BB-9EDCA0C09083}|Venta.BW\\Venta.BW.csproj|c:\\users\\jesnereliecermelgara\\source\\repos\\ventaboletoconciertoapi\\venta.bw\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1E1125-D70E-4365-B3BB-9EDCA0C09083}|Venta.BW\\Venta.BW.csproj|solutionrelative:venta.bw\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI\\Program.cs",
+              "RelativeDocumentMoniker": "VentaBoletoConciertoAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI\\Program.cs",
+              "RelativeToolTip": "VentaBoletoConciertoAPI\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:15:31.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VentaBoletoConciertoAPI",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI.csproj",
+              "RelativeDocumentMoniker": "VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI.csproj",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI.csproj",
+              "RelativeToolTip": "VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-21T08:17:37.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VentaBoletoConciertoAPI",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI.csproj",
+              "RelativeDocumentMoniker": "VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI.csproj",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI.csproj",
+              "RelativeToolTip": "VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-21T08:12:21.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GestionarVentaBW.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.BW\\CU\\GestionarVentaBW.cs",
+              "RelativeDocumentMoniker": "Venta.BW\\CU\\GestionarVentaBW.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.BW\\CU\\GestionarVentaBW.cs",
+              "RelativeToolTip": "Venta.BW\\CU\\GestionarVentaBW.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAQwAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:22:36.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GestionarVentaDA.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.DA\\Acciones\\GestionarVentaDA.cs",
+              "RelativeDocumentMoniker": "Venta.DA\\Acciones\\GestionarVentaDA.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.DA\\Acciones\\GestionarVentaDA.cs",
+              "RelativeToolTip": "Venta.DA\\Acciones\\GestionarVentaDA.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAQwAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:21:58.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IGestionarVentaBW.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.BW\\Interfaces\\BW\\IGestionarVentaBW.cs",
+              "RelativeDocumentMoniker": "Venta.BW\\Interfaces\\BW\\IGestionarVentaBW.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.BW\\Interfaces\\BW\\IGestionarVentaBW.cs",
+              "RelativeToolTip": "Venta.BW\\Interfaces\\BW\\IGestionarVentaBW.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:22:25.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContextoData.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.DA\\Contexto\\ContextoData.cs",
+              "RelativeDocumentMoniker": "Venta.DA\\Contexto\\ContextoData.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.DA\\Contexto\\ContextoData.cs",
+              "RelativeToolTip": "Venta.DA\\Contexto\\ContextoData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:22:19.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "VentaBoletoConciertoAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI\\appsettings.json",
+              "RelativeToolTip": "VentaBoletoConciertoAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-21T08:14:39.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.BC\\LogicaDeNegocio\\Class1.cs",
+              "RelativeDocumentMoniker": "Venta.BC\\LogicaDeNegocio\\Class1.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.BC\\LogicaDeNegocio\\Class1.cs",
+              "RelativeToolTip": "Venta.BC\\LogicaDeNegocio\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:14:09.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.BC\\Enumerados\\Class1.cs",
+              "RelativeDocumentMoniker": "Venta.BC\\Enumerados\\Class1.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.BC\\Enumerados\\Class1.cs",
+              "RelativeToolTip": "Venta.BC\\Enumerados\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:14:02.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.BC\\Constantes\\Class1.cs",
+              "RelativeDocumentMoniker": "Venta.BC\\Constantes\\Class1.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.BC\\Constantes\\Class1.cs",
+              "RelativeToolTip": "Venta.BC\\Constantes\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:13:56.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Venta.DA",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.DA\\Venta.DA.csproj",
+              "RelativeDocumentMoniker": "Venta.DA\\Venta.DA.csproj",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.DA\\Venta.DA.csproj",
+              "RelativeToolTip": "Venta.DA\\Venta.DA.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-21T08:09:55.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Venta.SG",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.SG\\Venta.SG.csproj",
+              "RelativeDocumentMoniker": "Venta.SG\\Venta.SG.csproj",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.SG\\Venta.SG.csproj",
+              "RelativeToolTip": "Venta.SG\\Venta.SG.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-21T08:11:18.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Venta.BW",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.BW\\Venta.BW.csproj",
+              "RelativeDocumentMoniker": "Venta.BW\\Venta.BW.csproj",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.BW\\Venta.BW.csproj",
+              "RelativeToolTip": "Venta.BW\\Venta.BW.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-21T08:09:31.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Venta.BC",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.BC\\Venta.BC.csproj",
+              "RelativeDocumentMoniker": "Venta.BC\\Venta.BC.csproj",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.BC\\Venta.BC.csproj",
+              "RelativeToolTip": "Venta.BC\\Venta.BC.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-21T08:09:18.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.BC\\Class1.cs",
+              "RelativeDocumentMoniker": "Venta.BC\\Class1.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.BC\\Class1.cs",
+              "RelativeToolTip": "Venta.BC\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:08:56.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.SG\\Class1.cs",
+              "RelativeDocumentMoniker": "Venta.SG\\Class1.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.SG\\Class1.cs",
+              "RelativeToolTip": "Venta.SG\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:05:49.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.DA\\Class1.cs",
+              "RelativeDocumentMoniker": "Venta.DA\\Class1.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.DA\\Class1.cs",
+              "RelativeToolTip": "Venta.DA\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:05:32.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.BW\\Class1.cs",
+              "RelativeDocumentMoniker": "Venta.BW\\Class1.cs",
+              "ToolTip": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.BW\\Class1.cs",
+              "RelativeToolTip": "Venta.BW\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:05:00.993Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
