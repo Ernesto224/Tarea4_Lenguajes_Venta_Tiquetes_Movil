@@ -8,23 +8,23 @@ using System.Threading.Tasks;
 
 namespace Ventan.DA.Entidades
 {
-    [Table("Concierto")]
+    [Table("concierto")]
     public class ConciertoDA
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int IdConcierto { get; set; }
+        public int idConcierto { get; set; }
 
         [Required]
-        public string ImagenArtista { get; set; }
+        public string? imagenArtista { get; set; }
 
         [Required]
-        public string NombreArtista { get; set; }
+        public string? nombreArtista { get; set; }
 
         [Required]
-        public DateTime FechaEvento { get; set; }
+        public DateTime fechaEvento { get; set; }
 
         [Required]
-        public string UbicacionConcierto { get; set; }
+        public string? ubicacionConcierto { get; set; }
     }
 }

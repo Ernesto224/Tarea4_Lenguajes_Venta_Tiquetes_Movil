@@ -46,24 +46,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JesnerEliecerMelgara\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Ernesto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.SG\\Venta.SG.csproj",
+      "projectUniqueName": "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\Venta.SG\\Venta.SG.csproj",
       "projectName": "Venta.SG",
-      "projectPath": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.SG\\Venta.SG.csproj",
-      "packagesPath": "C:\\Users\\JesnerEliecerMelgara\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.SG\\obj\\",
+      "projectPath": "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\Venta.SG\\Venta.SG.csproj",
+      "packagesPath": "C:\\Users\\Ernesto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\Venta.SG\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\JesnerEliecerMelgara\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Ernesto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -71,18 +66,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.BC\\Venta.BC.csproj": {
-              "projectPath": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.BC\\Venta.BC.csproj"
+            "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\Venta.BC\\Venta.BC.csproj": {
+              "projectPath": "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\Venta.BC\\Venta.BC.csproj"
             },
-            "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.BW\\Venta.BW.csproj": {
-              "projectPath": "C:\\Users\\JesnerEliecerMelgara\\source\\repos\\VentaBoletoConciertoAPI\\Venta.BW\\Venta.BW.csproj"
+            "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\Venta.BW\\Venta.BW.csproj": {
+              "projectPath": "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\Venta.BW\\Venta.BW.csproj"
             }
           }
         }
@@ -117,7 +111,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

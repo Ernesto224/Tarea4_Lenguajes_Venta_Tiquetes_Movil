@@ -1,13 +1,15 @@
 using Microsoft.EntityFrameworkCore;
+using Venta.BC.Constantes;
 using Venta.BW.CU;
 using Venta.BW.Interfaces.BW;
 using Venta.BW.Interfaces.DA;
+using Venta.DA.Acciones;
 using Ventan.DA.Acciones;
 using Ventan.DA.Contexto;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ContextoData>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("JesnerCS")));
+options.UseSqlServer(StringDeConexion.stringDeConexion));
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -18,6 +20,11 @@ builder.Services.AddSwaggerGen();
 //Inyección de dependencias
 builder.Services.AddTransient<IGestionarVentaBW, GestionarVentaBW>();
 builder.Services.AddTransient<IGestionarVentaDA, GestionarVentaDA>();
+builder.Services.AddTransient<IGestionarUsuarioBW, GestionarUsuarioBW>();
+builder.Services.AddTransient<IGestionarUsuarioDA, GestionarUsuarioDA>();
+builder.Services.AddTransient<IGestionarConciertoBW, GestionarConciertoBW>();
+builder.Services.AddTransient<IGestionarConciertoDA, GestionarConciertoDA>();
+
 var app = builder.Build();
 app.UseCors("AllowOrigin");
 app.UseCors(options =>

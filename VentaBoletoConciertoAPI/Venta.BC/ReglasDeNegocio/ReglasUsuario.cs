@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Venta.BC.ReglasDeNegocio
 {
-    internal class ReglasUsuario
+    public class ReglasUsuario
     {
+       
     }
 }

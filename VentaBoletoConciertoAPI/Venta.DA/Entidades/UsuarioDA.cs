@@ -8,26 +8,26 @@ using System.Threading.Tasks;
 
 namespace Ventan.DA.Entidades
 {
-    [Table("Usuario")]
+    [Table("usuario")]
     public class UsuarioDA
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int IdUsuario { get; set; }
+        public int idUsuario { get; set; }
 
         [Required]
-        public string Nombre { get; set; }
+        public string nombre { get; set; }
 
         [Required]
-        public string Apellido { get; set; }
+        public string apellido { get; set; }
 
         [Required]
-        public DateTime FechaNacimiento { get; set; }
+        public DateTime fechaNacimiento { get; set; }
 
         [Required]
-        public string CorreoElectronico { get; set; }
+        public string correoElectronico { get; set; }
 
         [Required]
-        public string Contrasenia { get; set; }
+        public string contrasenia { get; set; }
     }
 }
