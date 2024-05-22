@@ -1,14 +1,16 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>sigIn</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">sigIn</ion-title>
-    </ion-toolbar>
-  </ion-header>
-  <ion-button expand="block">Iniciar Sesion</ion-button>
+  <ion-app>
+    <ion-content>
+      <div class="login-container">
+        <img src="https://via.placeholder.com/100" alt="Ticket Logo" class="logo">
+        <div class="title">MUNDI<br>SHOWS</div>
+        <div class="input-container">
+          <ion-input type="email" placeholder="Correo electrónico"></ion-input>
+          <ion-input type="password" placeholder="Contraseña"></ion-input>
+        </div>
+        <ion-button expand="block" class="login-button">Iniciar sesión</ion-button>
+        <ion-button fill="outline" expand="block" class="login-button">Registrarse</ion-button>
+      </div>
+    </ion-content>
+  </ion-app>
 </ion-content>
