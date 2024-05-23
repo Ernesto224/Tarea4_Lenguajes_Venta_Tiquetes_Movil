@@ -8,10 +8,10 @@ namespace Venta.BC.Modelos
 {
     public class Concierto
     {
-        public int IdConcierto { get; set; }
-        public string? ImagenArtista { get; set; }
-        public string? NombreArtista { get; set; }
-        public DateTime FechaEvento { get; set; }
-        public string? UbicacionConcierto { get; set; }
+        public int idConcierto { get; set; }
+        public string? imagenArtista { get; set; }
+        public string? nombreArtista { get; set; }
+        public DateTime fechaEvento { get; set; }
+        public string? ubicacionConcierto { get; set; }
     }
 }

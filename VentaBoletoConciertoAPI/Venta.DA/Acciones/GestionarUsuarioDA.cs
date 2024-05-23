@@ -37,11 +37,11 @@ namespace Venta.DA.Acciones
 
             //el objeto encontrado es mapedado en un usuario para ser retoenado
             return new Usuario { 
-                IdUsuario = usuarioDA.idUsuario, 
-                Nombre = usuarioDA.nombre,
-                Apellido = usuarioDA.apellido,
-                FechaNacimiento = usuarioDA.fechaNacimiento,
-                CorreoElectronico = usuarioDA.correoElectronico,
+                idUsuario = usuarioDA.idUsuario, 
+                nombre = usuarioDA.nombre,
+                apellido = usuarioDA.apellido,
+                fechaNacimiento = usuarioDA.fechaNacimiento,
+                correoElectronico = usuarioDA.correoElectronico,
             };
         }
 
@@ -49,7 +49,7 @@ namespace Venta.DA.Acciones
         {
             //se valida que el correo ingresado sea unico
             var usuarioDa = await this._contextoData.UsuarioDA.FirstOrDefaultAsync(
-                tupla => tupla.correoElectronico == usuario.CorreoElectronico
+                tupla => tupla.correoElectronico == usuario.correoElectronico
                 );
 
             if (usuarioDa != null) 
@@ -59,11 +59,11 @@ namespace Venta.DA.Acciones
 
             //se mapea el usuario a un DA
             var nuevoUsuario = new UsuarioDA { 
-                nombre = usuario.Nombre,
-                apellido = usuario.Apellido,
-                fechaNacimiento = usuario.FechaNacimiento,
-                correoElectronico = usuario.CorreoElectronico,
-                contrasenia = usuario.Contrasenia
+                nombre = usuario.nombre,
+                apellido = usuario.apellido,
+                fechaNacimiento = usuario.fechaNacimiento,
+                correoElectronico = usuario.correoElectronico,
+                contrasenia = usuario.contrasenia
             };
 
             //se agrega la tupla nueva

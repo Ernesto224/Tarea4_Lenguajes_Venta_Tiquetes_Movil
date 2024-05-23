@@ -10,11 +10,11 @@ namespace Venta.BC.Modelos
 {
     public class Usuario
     {
-        public int IdUsuario { get; set; }
-        public string? Nombre { get; set; }
-        public string? Apellido { get; set; }
-        public DateTime FechaNacimiento { get; set; }
-        public string? CorreoElectronico { get; set; }
-        public string? Contrasenia { get; set; }
+        public int idUsuario { get; set; }
+        public string? nombre { get; set; }
+        public string? apellido { get; set; }
+        public DateTime fechaNacimiento { get; set; }
+        public string? correoElectronico { get; set; }
+        public string? contrasenia { get; set; }
     }
 }

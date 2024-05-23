@@ -23,13 +23,13 @@ namespace Venta.DA.Acciones
         public async Task<IEnumerable> ListarConciertos()
         {
             //se recuperan todos los conciertos y se mapean a un usuario valido
-            var lista = await this._contextoData.ConciertoDA.Select(concietoDA => new Concierto() 
+            var lista = await this._contextoData.ConciertoDA.Select(tupla => new Concierto() 
                 { 
-                    IdConcierto = concietoDA.idConcierto,
-                    ImagenArtista = concietoDA.imagenArtista,
-                    NombreArtista = concietoDA.nombreArtista,
-                    FechaEvento = concietoDA.fechaEvento,
-                    UbicacionConcierto = concietoDA.ubicacionConcierto
+                    idConcierto = tupla.idConcierto,
+                    imagenArtista = tupla.imagenArtista,
+                    nombreArtista = tupla.nombreArtista,
+                    fechaEvento = tupla.fechaEvento,
+                    ubicacionConcierto = tupla.ubicacionConcierto
                 }
             ).ToListAsync();
 

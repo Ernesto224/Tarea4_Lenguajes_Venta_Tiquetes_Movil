@@ -16,12 +16,12 @@ namespace Venta.DA.Entidades
         public int idUsuario { get; set; }
 
         [ForeignKey("idUsuario")]
-        public UsuarioDA? UsuarioDA { get; set; }
+        public UsuarioDA? usuarioDA { get; set; }
 
         [Required]
         public int idBoleto { get; set; }
 
         [ForeignKey("idBoleto")]
-        public BoletoDA? BoletoDA { get; set; }
+        public BoletoDA? boletoDA { get; set; }
     }
 }

@@ -13,7 +13,7 @@ namespace Venta.DA.Entidades
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int IdTipoZona { get; set; }
+        public int idTipoZona { get; set; }
 
         [Required]
         public string? nombreZona { get; set; }

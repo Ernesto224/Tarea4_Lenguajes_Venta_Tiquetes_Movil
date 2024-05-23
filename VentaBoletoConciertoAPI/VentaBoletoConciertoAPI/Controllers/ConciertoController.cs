@@ -20,9 +20,16 @@ namespace VentaBoletoConciertoAPI.Controllers
 
         // GET: api/<ConciertoController>
         [HttpGet]
-        public async Task<IEnumerable<ConciertoDTO>> Get()
+        public async Task<ActionResult<IEnumerable<ConciertoDTO>>> Get()
         {
-            return ConciertoMapper.ConciertosToDTOs((IEnumerable<Concierto>)await this.gestionarConciertoBW.ListarConciertos());
+            var conciertos = await this.gestionarConciertoBW.ListarConciertos();
+
+            if (conciertos is null) 
+            {
+                return NotFound(conciertos);              
+            }
+
+            return Ok(ConciertoMapper.ConciertosToDTOs((IEnumerable<Concierto>)conciertos));
         }
     }
 }

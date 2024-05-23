@@ -26,7 +26,7 @@ namespace Venta.DA.Entidades
         public TipoZonaDA? tipoZona { get; set; }
 
         [Required]
-        public int idConcieto { get; set; }
+        public int idConcierto { get; set; }
 
         [ForeignKey("idConcierto")]
         public ConciertoDA? concierto { get; set;}

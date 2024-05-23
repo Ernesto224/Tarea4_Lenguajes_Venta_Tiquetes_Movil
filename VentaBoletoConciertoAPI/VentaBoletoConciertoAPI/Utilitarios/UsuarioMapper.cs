@@ -9,10 +9,10 @@ namespace VentaBoletoConciertoAPI.Utilitarios
         {
             return new UsuarioDTO
             {
-                IdUsuario = usuario.IdUsuario,
-                Nombre = usuario.Nombre,
-                Apellido = usuario.Apellido,
-                CorreoElectronico = usuario.CorreoElectronico
+                IdUsuario = usuario.idUsuario,
+                Nombre = usuario.nombre,
+                Apellido = usuario.apellido,
+                CorreoElectronico = usuario.correoElectronico
             };
         }
 

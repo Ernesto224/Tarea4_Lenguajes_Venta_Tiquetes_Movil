@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VentaBoletoConciertoAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ca26138e82a2f64b27450ffee11d93ecf0622c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba4749bd2ca3a7d1a68b77855b17e69141ec554d")]
 [assembly: System.Reflection.AssemblyProductAttribute("VentaBoletoConciertoAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VentaBoletoConciertoAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,32 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{538691F6-E09C-4EF8-BF45-63B795B0C3F1}|Venta.DA\\Venta.DA.csproj|c:\\users\\ernesto\\documents\\github\\tarea4_lenguajes_venta_tiquetes_movil\\ventaboletoconciertoapi\\venta.da\\acciones\\gestionarusuarioda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{538691F6-E09C-4EF8-BF45-63B795B0C3F1}|Venta.DA\\Venta.DA.csproj|solutionrelative:venta.da\\acciones\\gestionarusuarioda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A1E1125-D70E-4365-B3BB-9EDCA0C09083}|Venta.BW\\Venta.BW.csproj|c:\\users\\ernesto\\documents\\github\\tarea4_lenguajes_venta_tiquetes_movil\\ventaboletoconciertoapi\\venta.bw\\cu\\gestionarusuariobw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A1E1125-D70E-4365-B3BB-9EDCA0C09083}|Venta.BW\\Venta.BW.csproj|solutionrelative:venta.bw\\cu\\gestionarusuariobw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A1E1125-D70E-4365-B3BB-9EDCA0C09083}|Venta.BW\\Venta.BW.csproj|c:\\users\\ernesto\\documents\\github\\tarea4_lenguajes_venta_tiquetes_movil\\ventaboletoconciertoapi\\venta.bw\\interfaces\\bw\\igestionarusuariobw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A1E1125-D70E-4365-B3BB-9EDCA0C09083}|Venta.BW\\Venta.BW.csproj|solutionrelative:venta.bw\\interfaces\\bw\\igestionarusuariobw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A1E1125-D70E-4365-B3BB-9EDCA0C09083}|Venta.BW\\Venta.BW.csproj|c:\\users\\ernesto\\documents\\github\\tarea4_lenguajes_venta_tiquetes_movil\\ventaboletoconciertoapi\\venta.bw\\interfaces\\da\\igestionarusuarioda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A1E1125-D70E-4365-B3BB-9EDCA0C09083}|Venta.BW\\Venta.BW.csproj|solutionrelative:venta.bw\\interfaces\\da\\igestionarusuarioda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4BF563-EB0F-4219-86D3-6BFF0A5BB294}|VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI.csproj|c:\\users\\ernesto\\documents\\github\\tarea4_lenguajes_venta_tiquetes_movil\\ventaboletoconciertoapi\\ventaboletoconciertoapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA4BF563-EB0F-4219-86D3-6BFF0A5BB294}|VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI.csproj|solutionrelative:ventaboletoconciertoapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F757096-3E06-4E21-B9B2-392FC1AA3FC2}|Venta.BC\\Venta.BC.csproj|c:\\users\\ernesto\\documents\\github\\tarea4_lenguajes_venta_tiquetes_movil\\ventaboletoconciertoapi\\venta.bc\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F757096-3E06-4E21-B9B2-392FC1AA3FC2}|Venta.BC\\Venta.BC.csproj|solutionrelative:venta.bc\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -34,89 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GestionarUsuarioDA.cs",
-              "DocumentMoniker": "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\Venta.DA\\Acciones\\GestionarUsuarioDA.cs",
-              "RelativeDocumentMoniker": "Venta.DA\\Acciones\\GestionarUsuarioDA.cs",
-              "ToolTip": "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\Venta.DA\\Acciones\\GestionarUsuarioDA.cs",
-              "RelativeToolTip": "Venta.DA\\Acciones\\GestionarUsuarioDA.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T02:49:25.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GestionarUsuarioBW.cs",
-              "DocumentMoniker": "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\Venta.BW\\CU\\GestionarUsuarioBW.cs",
-              "RelativeDocumentMoniker": "Venta.BW\\CU\\GestionarUsuarioBW.cs",
-              "ToolTip": "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\Venta.BW\\CU\\GestionarUsuarioBW.cs",
-              "RelativeToolTip": "Venta.BW\\CU\\GestionarUsuarioBW.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T02:49:02.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IGestionarUsuarioDA.cs",
-              "DocumentMoniker": "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\Venta.BW\\Interfaces\\DA\\IGestionarUsuarioDA.cs",
-              "RelativeDocumentMoniker": "Venta.BW\\Interfaces\\DA\\IGestionarUsuarioDA.cs",
-              "ToolTip": "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\Venta.BW\\Interfaces\\DA\\IGestionarUsuarioDA.cs",
-              "RelativeToolTip": "Venta.BW\\Interfaces\\DA\\IGestionarUsuarioDA.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T02:48:41.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IGestionarUsuarioBW.cs",
-              "DocumentMoniker": "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\Venta.BW\\Interfaces\\BW\\IGestionarUsuarioBW.cs",
-              "RelativeDocumentMoniker": "Venta.BW\\Interfaces\\BW\\IGestionarUsuarioBW.cs",
-              "ToolTip": "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\Venta.BW\\Interfaces\\BW\\IGestionarUsuarioBW.cs",
-              "RelativeToolTip": "Venta.BW\\Interfaces\\BW\\IGestionarUsuarioBW.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T02:48:29.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\Venta.BC\\Modelos\\Usuario.cs",
-              "RelativeDocumentMoniker": "Venta.BC\\Modelos\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\Venta.BC\\Modelos\\Usuario.cs",
-              "RelativeToolTip": "Venta.BC\\Modelos\\Usuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T02:47:32.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "VentaBoletoConciertoAPI\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\VentaBoletoConciertoAPI\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "VentaBoletoConciertoAPI\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T02:47:03.084Z",
-              "EditorCaption": ""
             }
           ]
         }

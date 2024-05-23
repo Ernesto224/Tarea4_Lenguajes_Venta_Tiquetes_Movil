@@ -9,11 +9,11 @@ namespace VentaBoletoConciertoAPI.Utilitarios
 
             return new ConciertoDTO
             {
-                IdConcierto = concierto.IdConcierto,
-                ImagenArtista = concierto.ImagenArtista,
-                NombreArtista = concierto.NombreArtista,
-                FechaEvento = concierto.FechaEvento,
-                UbicacionConcierto = concierto.UbicacionConcierto
+                IdConcierto = concierto.idConcierto,
+                ImagenArtista = concierto.imagenArtista,
+                NombreArtista = concierto.nombreArtista,
+                FechaEvento = concierto.fechaEvento,
+                UbicacionConcierto = concierto.ubicacionConcierto
             };
         }
 

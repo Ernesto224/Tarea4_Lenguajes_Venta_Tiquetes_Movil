@@ -4,7 +4,6 @@ using Venta.BW.CU;
 using Venta.BW.Interfaces.BW;
 using Venta.BW.Interfaces.DA;
 using Venta.DA.Acciones;
-using Ventan.DA.Acciones;
 using Ventan.DA.Contexto;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,12 +17,15 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //Inyección de dependencias
-builder.Services.AddTransient<IGestionarVentaBW, GestionarVentaBW>();
-builder.Services.AddTransient<IGestionarVentaDA, GestionarVentaDA>();
+builder.Services.AddTransient<IGestionarTipoZonaBW, GestionarTipoZonaBW>();
+builder.Services.AddTransient<IGestionarTipoZonaDA, GestionarTipoZonaDA>();
 builder.Services.AddTransient<IGestionarUsuarioBW, GestionarUsuarioBW>();
 builder.Services.AddTransient<IGestionarUsuarioDA, GestionarUsuarioDA>();
 builder.Services.AddTransient<IGestionarConciertoBW, GestionarConciertoBW>();
 builder.Services.AddTransient<IGestionarConciertoDA, GestionarConciertoDA>();
+builder.Services.AddTransient<IGestionarAsientosBW, GestionarAsientoBW>();
+builder.Services.AddTransient<IGestionarAsientosDA, GestionarAsientosDA>();
+
 
 var app = builder.Build();
 app.UseCors("AllowOrigin");

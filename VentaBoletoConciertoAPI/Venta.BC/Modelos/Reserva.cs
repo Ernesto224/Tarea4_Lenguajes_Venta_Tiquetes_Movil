@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Venta.BC.Modelos
 {
-    internal class Reserva
+    public class Reserva
     {
     }
 }

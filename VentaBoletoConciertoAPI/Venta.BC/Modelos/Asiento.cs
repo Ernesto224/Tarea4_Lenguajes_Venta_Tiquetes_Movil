@@ -13,8 +13,8 @@ namespace Venta.BC.Modelos
         public int idAsiento { get; set; }
         public int numeroAsiento { get; set; }
         public int idTipoZona { get; set; }
-        public int idConcieto { get; set; }
-        public bool reservado { get; set; } = false;
+        public int idConcierto { get; set; }
+        public bool reservado { get; set; }
 
     }
 }

@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Venta.BW.Interfaces.BW
 {
-    public interface IGestionarTipoZona
+    public interface IGestionarTipoZonaBW
     {
-        public Task<IEnumerable> ListarDeZonasDisponiblesPorConcierto(int idConcierto);
+        public Task<IEnumerable> ListarTiposDeZonas();
     }
 }
