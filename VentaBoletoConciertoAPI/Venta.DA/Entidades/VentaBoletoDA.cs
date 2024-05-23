@@ -9,14 +9,14 @@ using Ventan.DA.Entidades;
 
 namespace Venta.DA.Entidades
 {
-    [Table("reserva")]
-    public class ReservaDA
+    [Table("ventaBoleto")]
+    public class VentaBoletoDA
     {
         [Required]
-        public int idUsuario { get; set; }
+        public int idVenta { get; set; }
 
-        [ForeignKey("idUsuario")]
-        public UsuarioDA? usuarioDA { get; set; }
+        [ForeignKey("idVenta")]
+        public VentaRegistradaDA? venta { get; set; }
 
         [Required]
         public int idBoleto { get; set; }

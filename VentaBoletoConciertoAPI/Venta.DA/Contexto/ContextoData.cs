@@ -20,11 +20,12 @@ namespace Ventan.DA.Contexto
         public DbSet<TipoZonaDA> TipoZonaDA { get; set; }
         public DbSet<AsientoDA>AsientoDA { get; set; }
         public DbSet<BoletoDA>BoletoDA { get; set; }
-        public DbSet<ReservaDA>ReservaDA { get; set; }
+        public DbSet<VentaRegistradaDA>VentaDA { get; set; }
+        public DbSet<VentaBoletoDA>? VentaBoletoDA { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<ReservaDA>().HasKey(llave => new { llave.idUsuario, llave.idBoleto});
+            modelBuilder.Entity<VentaBoletoDA>().HasKey(llave => new { llave.idVenta, llave.idBoleto});
         }
 
     }

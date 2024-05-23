@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Venta.DA.Entidades;
 
 namespace Venta.BC.Modelos
 {
@@ -12,8 +13,8 @@ namespace Venta.BC.Modelos
     {
         public int idAsiento { get; set; }
         public int numeroAsiento { get; set; }
-        public int idTipoZona { get; set; }
-        public int idConcierto { get; set; }
+        public TipoZona? TipoZona { get; set; }
+        public Concierto? concierto { get; set; }
         public bool reservado { get; set; }
 
     }

@@ -21,12 +21,5 @@ namespace Venta.DA.Entidades
 
         [ForeignKey("idAsiento")]
         public AsientoDA? asiento { get; set; }
-
-        [Required]
-        public int idConcierto { get; set; }
-
-        [ForeignKey("idConcierto")]
-        public ConciertoDA? concierto { get; set;}
-
     }
 }

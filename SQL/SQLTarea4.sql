@@ -41,25 +41,31 @@ create table asiento(
 create table boleto(
 	idBoleto int primary key identity,
 	idAsiento int,
-	idConcierto int,
-	constraint fk_concierto_boleto
-	foreign key (idConcierto)
-	references concierto(idConcierto),
 	constraint fk_asiento_boleto
 	foreign key (idAsiento)
 	references asiento(idAsiento)
 )
 
-create table reserva(
+create table venta(
+	idVenta int primary key identity,
 	idUsuario int,
-	idBoleto int,
+	fechaDeCompra datetime,
+	pagoTotal decimal(18,2),
 	constraint fk_usuario_reserva
 	foreign key (idUsuario)
-	references usuario(idUsuario),
-	constraint fk_boleto_reserva
+	references usuario(idUsuario)
+)
+
+create table ventaBoleto(
+	idVenta int,
+	idBoleto int,
+	constraint fk_venta_reservaBoleto
+	foreign key (idVenta)
+	references venta(idVenta),
+	constraint fk_boleto_reservaBoleto
 	foreign key (idBoleto)
 	references boleto(idBoleto),
-	primary key(idUsuario, idBoleto)
+	primary key(idVenta, idBoleto)
 )
 
 --INSERTS
@@ -168,40 +174,4 @@ BEGIN
                   ELSE 5 -- Gramilla
                 END, 4, 0);
     SET @l = @l + 1;
-END;
-
---BOLETO
--- Boletos para concierto 1
-DECLARE @m INT = 1;
-WHILE @m <= 30
-BEGIN
-    INSERT INTO boleto (idAsiento, idConcieto)
-    VALUES (@m, 1);
-    SET @m = @m + 1;
-END;
-
---RESERVA
--- Supongamos que tenemos 10 usuarios y 120 boletos (30 por cada concierto)
-
--- Inserts de reserva: 3 boletos por cada usuario
-DECLARE @numBoletos INT = 3;
-DECLARE @maxUsuarios INT = 10;
-DECLARE @h INT = 1;
-DECLARE @d INT = 1;
-DECLARE @maxBoletos INT = 120;
-
-WHILE @h <= @maxUsuarios
-BEGIN
-    DECLARE @counter INT = 0;
-    
-    WHILE @counter < @numBoletos AND @d <= @maxBoletos
-    BEGIN
-        INSERT INTO reserva (idUsuario, idBoleto) 
-        VALUES (@h, @d);
-        
-        SET @d = @d + 1;
-        SET @counter = @counter + 1;
-    END
-    
-    SET @h = @h + 1;
 END;
