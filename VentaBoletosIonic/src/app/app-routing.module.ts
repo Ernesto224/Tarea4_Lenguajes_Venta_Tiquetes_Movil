@@ -15,6 +15,20 @@ const routes: Routes = [
     path: 'sig-in',
     loadChildren: () => import('./pages/sig-in/sig-in.module').then( m => m.SigInPageModule)
   },
+  {
+    path: 'register',
+    loadChildren: () => import('./pages/register/register.module').then( m => m.RegisterPageModule)
+  },
+  {
+    path: 'concert',
+    loadChildren: () => import('./pages/concert/concert.module').then( m => m.ConcertPageModule)
+  },
+  {
+    path: 'ticket',
+    loadChildren: () => import('./pages/ticket/ticket.module').then( m => m.TicketPageModule)
+  },
+
+
 
 ];
 

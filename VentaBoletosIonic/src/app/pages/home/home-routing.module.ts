@@ -6,6 +6,11 @@ const routes: Routes = [
   {
     path: '',
     component: HomePage,
+    children: [
+      { path: '', redirectTo: 'concert', pathMatch: 'full' },
+      { path: 'ticket', loadChildren: () => import('../ticket/ticket.module').then(m => m.TicketPageModule) },
+      { path: 'concert', loadChildren: () => import('../concert/concert.module').then(m => m.ConcertPageModule) }
+    ]
   }
 ];
 

@@ -1,17 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+
 import { IonicModule } from '@ionic/angular';
-import { SigInPageRoutingModule } from './sig-in-routing.module';
-import { SigInPage } from './sig-in.page';
+
+import { RegisterPageRoutingModule } from './register-routing.module';
+
+import { RegisterPage } from './register.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    SigInPageRoutingModule
+    RegisterPageRoutingModule
   ],
-  declarations: [SigInPage]
+  declarations: [RegisterPage]
 })
-export class SigInPageModule {}
+export class RegisterPageModule {}

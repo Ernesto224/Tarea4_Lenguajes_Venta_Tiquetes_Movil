@@ -1,16 +1,16 @@
-<ion-content [fullscreen]="true">
-  <ion-app>
-    <ion-content>
-      <div class="login-container">
-        <img src="https://via.placeholder.com/100" alt="Ticket Logo" class="logo">
-        <div class="title">MUNDI<br>SHOWS</div>
-        <div class="input-container">
-          <ion-input type="email" placeholder="Correo electrónico"></ion-input>
-          <ion-input type="password" placeholder="Contraseña"></ion-input>
-        </div>
-        <ion-button expand="block" class="login-button">Iniciar sesión</ion-button>
-        <ion-button fill="outline" expand="block" class="login-button">Registrarse</ion-button>
-      </div>
-    </ion-content>
-  </ion-app>
+
+<ion-content>
+  <div class="login-container" style="background-color: white;">
+    <img src="assets\TicketSigInImage.png" alt="Ticket Icon" class="ticket-icon"/>
+    <h1 class="app-title">MUNDI <br>SHOWS</h1>
+      <ion-input placeholder="Correo electrónico" type="email" class="input-style" [(ngModel)]="correoElectronico"></ion-input>
+      <ion-input placeholder="Contraseña" type="password" class="input-style" [(ngModel)]="contrasenia"></ion-input>
+    <ion-button shape="round" (click) = "enviarDatos()">
+      Iniciar sesión
+    </ion-button>
+    <ion-button fill="outline" shape="round" style="color: #666;" (click)="irAlRegistroUsuario()">
+      Registrarse
+    </ion-button>
+
+  </div>
 </ion-content>
