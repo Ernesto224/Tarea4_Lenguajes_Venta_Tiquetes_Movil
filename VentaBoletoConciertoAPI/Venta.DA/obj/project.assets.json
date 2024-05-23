@@ -591,6 +591,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore >= 8.0.5",
+      "Venta.BC >= 1.0.0",
       "Venta.BW >= 1.0.0"
     ]
   },
@@ -621,6 +622,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\Venta.BC\\Venta.BC.csproj": {
+              "projectPath": "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\Venta.BC\\Venta.BC.csproj"
+            },
             "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\Venta.BW\\Venta.BW.csproj": {
               "projectPath": "C:\\Users\\Ernesto\\Documents\\GitHub\\Tarea4_Lenguajes_Venta_Tiquetes_Movil\\VentaBoletoConciertoAPI\\Venta.BW\\Venta.BW.csproj"
             }

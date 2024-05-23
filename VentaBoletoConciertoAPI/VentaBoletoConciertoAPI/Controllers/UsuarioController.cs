@@ -21,9 +21,9 @@ namespace VentaBoletoConciertoAPI.Controllers
 
         // GET api/<UsuarioController>/5
         [HttpGet]
-        public async Task<ActionResult<UsuarioDTO>> Get(Usuario usuario)
+        public async Task<ActionResult<UsuarioDTO>> Get(string correoElectronico, string contrasenia)
         {
-            var resultado = await this.gestionarUsuarioBW.InicioDeSesion(usuario);
+            var resultado = await this.gestionarUsuarioBW.InicioDeSesion(correoElectronico, contrasenia);
 
             if (resultado == null)
             {

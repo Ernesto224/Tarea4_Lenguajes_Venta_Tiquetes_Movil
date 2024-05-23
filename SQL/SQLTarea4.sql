@@ -11,7 +11,7 @@ create table usuario(
 )
 
 create table concierto(
-	idConcieto int primary key identity,
+	idConcierto int primary key identity,
 	imagenArtista nvarchar(200),
 	nombreArtista nvarchar(30),
 	fechaEvento datetime,
@@ -28,23 +28,23 @@ create table asiento(
 	idAsiento int primary key identity,
 	numeroAsiento int,
 	idTipoZona int,
-	idConcieto int,
+	idConcierto int,
 	reservado bit default(0),
 	constraint fk_tipoZona_asiento
 	foreign key (idTipoZona)
 	references tipoZona(idTipoZona),
 	constraint fk_concierto_asiento
-	foreign key (idConcieto)
-	references concierto(idConcieto)
+	foreign key (idConcierto)
+	references concierto(idConcierto)
 )
 
 create table boleto(
 	idBoleto int primary key identity,
 	idAsiento int,
-	idConcieto int,
+	idConcierto int,
 	constraint fk_concierto_boleto
-	foreign key (idConcieto)
-	references concierto(idConcieto),
+	foreign key (idConcierto)
+	references concierto(idConcierto),
 	constraint fk_asiento_boleto
 	foreign key (idAsiento)
 	references asiento(idAsiento)

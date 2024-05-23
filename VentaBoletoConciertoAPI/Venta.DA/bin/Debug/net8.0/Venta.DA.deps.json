@@ -9,6 +9,7 @@
       "Venta.DA/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.5",
+          "Venta.BC": "1.0.0",
           "Venta.BW": "1.0.0"
         },
         "runtime": {

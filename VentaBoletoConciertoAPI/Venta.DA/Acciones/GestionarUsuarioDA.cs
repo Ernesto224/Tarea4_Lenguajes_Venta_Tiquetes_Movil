@@ -21,13 +21,13 @@ namespace Venta.DA.Acciones
             _contextoData = contextoData;
         }
 
-        public async Task<Usuario> InicioDeSesion(Usuario usuario)
+        public async Task<Usuario> InicioDeSesion(string correoElectronico, string contrasenia)
         {
        
             //se realiza un busqueda de la tupla de usuario segun el correo y contrasenia proporcionado
             var usuarioDA = await this._contextoData.UsuarioDA.FirstOrDefaultAsync(
-                tupla => tupla.correoElectronico == usuario.CorreoElectronico 
-                && tupla.contrasenia == usuario.Contrasenia
+                tupla => tupla.correoElectronico == correoElectronico 
+                && tupla.contrasenia == contrasenia
                 );
             
             if (usuarioDA is null) 

@@ -9,7 +9,7 @@ namespace Venta.BW.Interfaces.BW
 {
     public interface IGestionarUsuarioBW
     {
-        public Task<Usuario> InicioDeSesion(Usuario usuario);
+        public Task<Usuario> InicioDeSesion(string correoElectronico, string contrasenia);
 
         public Task<bool> RegistroDeUsuario(Usuario usuario);
     }

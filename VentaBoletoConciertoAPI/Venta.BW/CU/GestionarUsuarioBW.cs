@@ -18,9 +18,9 @@ namespace Venta.BW.CU
             this.gestionarUsuarioDA = gestionarUsuarioDA;
         }
 
-        public async Task<Usuario> InicioDeSesion(Usuario usuario)
+        public async Task<Usuario> InicioDeSesion(string correoElectronico, string contrasenia)
         {
-           return await this.gestionarUsuarioDA.InicioDeSesion(usuario);
+           return await this.gestionarUsuarioDA.InicioDeSesion(correoElectronico, contrasenia);
         }
 
         public async Task<bool> RegistroDeUsuario(Usuario usuario)
