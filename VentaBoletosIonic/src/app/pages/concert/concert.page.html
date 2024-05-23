@@ -3,17 +3,23 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>Conciertos</ion-title>
+    <ion-title>Próximos conciertos</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-item>
-    <ion-label position="floating">Tarea</ion-label>
-    <ion-input [(ngModel)]="task" type="text"></ion-input>
-  </ion-item>
-  <ion-button expand="full" (click)="addTask()">Agregar</ion-button>
-  <ion-button expand="full" routerLink="/task-list">Ver Tareas</ion-button>
+  <ion-list>
+    <div class="login-container" style="background-color: white;">
+      <ion-card *ngFor="let concert of concerts">
+        <img [src]="concert.image" />
+        <ion-card-content>
+          <ion-card-title>{{concert.artist}}</ion-card-title>
+          <p><strong>{{concert.date | date: 'dd-MM-yyyy'}}</strong></p>
+          <p>{{concert.venue}}</p>
+        </ion-card-content>
+        <ion-button expand="full" (click)="addTask()">Agregar</ion-button>
+        <ion-button expand="full" routerLink="/task-list">Ver Tareas</ion-button>
+      </ion-card>
+    </div>
+  </ion-list>
 </ion-content>
-
-

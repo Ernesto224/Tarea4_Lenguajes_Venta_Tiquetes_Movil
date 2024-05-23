@@ -32,7 +32,7 @@ export class SigInPage implements OnInit {
     this.router.navigate(['/register']);
   }
   irPaginaPrincipal(){
-    this.router.navigate(['/home/:id']);
+    this.router.navigate(['/home']);
   }
   
 
