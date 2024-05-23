@@ -11,11 +11,11 @@
   <ion-list>
     <div class="login-container" style="background-color: white;">
       <ion-card *ngFor="let concert of concerts">
-        <img [src]="concert.image" />
+        <img [src]="concert.imagenArtista" />
         <ion-card-content>
-          <ion-card-title>{{concert.artist}}</ion-card-title>
-          <p><strong>{{concert.date | date: 'dd-MM-yyyy'}}</strong></p>
-          <p>{{concert.venue}}</p>
+          <ion-card-title>{{concert.nombreArtista}}</ion-card-title>
+          <p><strong>{{concert.fechaEvento | date: 'dd-MM-yyyy HH:mm'}}</strong></p>
+          <p>{{concert.ubicacionConcierto}}</p>
         </ion-card-content>
         <ion-button expand="full" (click)="addTask()">Agregar</ion-button>
         <ion-button expand="full" routerLink="/task-list">Ver Tareas</ion-button>
@@ -23,3 +23,4 @@
     </div>
   </ion-list>
 </ion-content>
+
