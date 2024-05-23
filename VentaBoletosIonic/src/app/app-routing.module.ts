@@ -4,7 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: 'home',
-    loadChildren: () => import('./pages/home/home.module').then( m => m.HomePageModule)
+    loadChildren: () => import('./pages/home/home.module').then(m => m.HomePageModule)
   },
   {
     path: '',
@@ -13,23 +13,24 @@ const routes: Routes = [
   },
   {
     path: 'sig-in',
-    loadChildren: () => import('./pages/sig-in/sig-in.module').then( m => m.SigInPageModule)
+    loadChildren: () => import('./pages/sig-in/sig-in.module').then(m => m.SigInPageModule)
   },
   {
     path: 'register',
-    loadChildren: () => import('./pages/register/register.module').then( m => m.RegisterPageModule)
+    loadChildren: () => import('./pages/register/register.module').then(m => m.RegisterPageModule)
   },
   {
     path: 'concert',
-    loadChildren: () => import('./pages/concert/concert.module').then( m => m.ConcertPageModule)
+    loadChildren: () => import('./pages/concert/concert.module').then(m => m.ConcertPageModule)
   },
   {
     path: 'ticket',
-    loadChildren: () => import('./pages/ticket/ticket.module').then( m => m.TicketPageModule)
+    loadChildren: () => import('./pages/ticket/ticket.module').then(m => m.TicketPageModule)
   },
-
-
-
+  {
+    path: 'detail-concert/:id', // Agregar el parámetro id
+    loadChildren: () => import('./pages/detail-concert/detail-concert.module').then(m => m.DetailConcertPageModule)
+  },
 ];
 
 @NgModule({
