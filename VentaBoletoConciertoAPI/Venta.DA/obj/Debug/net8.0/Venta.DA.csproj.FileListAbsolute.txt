@@ -67,3 +67,12 @@ C:\Users\Ernesto\Desktop\VentaBoletoConciertoAPI\Venta.DA\bin\Debug\net8.0\Venta
 C:\Users\Ernesto\Desktop\VentaBoletoConciertoAPI\Venta.DA\bin\Debug\net8.0\Venta.BW.pdb
 C:\Users\Ernesto\Desktop\VentaBoletoConciertoAPI\Venta.DA\obj\Debug\net8.0\Venta.DA.csproj.Up2Date
 C:\Users\Ernesto\Desktop\VentaBoletoConciertoAPI\Venta.DA\obj\Debug\net8.0\ref\Venta.DA.dll
+C:\Users\JesnerEliecerMelgara\Desktop\Tarea4_Lenguajes_Venta_Tiquetes_Movil\VentaBoletoConciertoAPI\Venta.DA\bin\Debug\net8.0\Venta.DA.deps.json
+C:\Users\JesnerEliecerMelgara\Desktop\Tarea4_Lenguajes_Venta_Tiquetes_Movil\VentaBoletoConciertoAPI\Venta.DA\bin\Debug\net8.0\Venta.DA.dll
+C:\Users\JesnerEliecerMelgara\Desktop\Tarea4_Lenguajes_Venta_Tiquetes_Movil\VentaBoletoConciertoAPI\Venta.DA\bin\Debug\net8.0\Venta.DA.pdb
+C:\Users\JesnerEliecerMelgara\Desktop\Tarea4_Lenguajes_Venta_Tiquetes_Movil\VentaBoletoConciertoAPI\Venta.DA\bin\Debug\net8.0\Venta.BC.dll
+C:\Users\JesnerEliecerMelgara\Desktop\Tarea4_Lenguajes_Venta_Tiquetes_Movil\VentaBoletoConciertoAPI\Venta.DA\bin\Debug\net8.0\Venta.BW.dll
+C:\Users\JesnerEliecerMelgara\Desktop\Tarea4_Lenguajes_Venta_Tiquetes_Movil\VentaBoletoConciertoAPI\Venta.DA\bin\Debug\net8.0\Venta.BC.pdb
+C:\Users\JesnerEliecerMelgara\Desktop\Tarea4_Lenguajes_Venta_Tiquetes_Movil\VentaBoletoConciertoAPI\Venta.DA\bin\Debug\net8.0\Venta.BW.pdb
+C:\Users\JesnerEliecerMelgara\Desktop\Tarea4_Lenguajes_Venta_Tiquetes_Movil\VentaBoletoConciertoAPI\Venta.DA\obj\Debug\net8.0\Venta.DA.csproj.Up2Date
+C:\Users\JesnerEliecerMelgara\Desktop\Tarea4_Lenguajes_Venta_Tiquetes_Movil\VentaBoletoConciertoAPI\Venta.DA\obj\Debug\net8.0\ref\Venta.DA.dll
