@@ -6,6 +6,7 @@
     <ion-title>Conciertos</ion-title>
   </ion-toolbar>
 </ion-header>
+
 <ion-content class="content-container">
   <ion-grid>
     <ion-row>
@@ -20,18 +21,21 @@
             </ion-card-content>
             <br>
             <ion-list>
-      
-                <ion-label position="floating">Cantidad de Asientos</ion-label>
-                <ion-input type="number" [(ngModel)]="cantidadAsientos"></ion-input>
+              <ion-label position="floating">Cantidad de asientos</ion-label>
+              <ion-select [(ngModel)]="cantidadAsientos">
+                <ion-select-option [value]=1> 1 </ion-select-option>
+                <ion-select-option [value]=2> 2 </ion-select-option>
+                <ion-select-option [value]=3> 3 </ion-select-option>
+              </ion-select>
               <br>
                 <ion-label position="floating">Zona</ion-label>
                 <ion-select [(ngModel)]="zona" (ionChange)="cargarAsientosDisponibles()">
-                  <ion-select-option *ngFor="let zona of zonas" [value]="zona">{{ zona }}</ion-select-option>
+                  <ion-select-option *ngFor="let zona of zonas" [value]="zona.idTipoZona">{{ zona.nombreZona }}</ion-select-option>
                 </ion-select>
               <br>
                 <ion-label position="floating">Asientos</ion-label>
-                <ion-select [(ngModel)]="asientos" multiple="true" cancelText="Cancelar" okText="Aceptar">
-                  <ion-select-option *ngFor="let asiento of asientosDisponibles" [value]="asiento">{{ asiento }}</ion-select-option>
+                <ion-select [(ngModel)]="asientos" multiple="true" cancelText="Cancelar" okText="Aceptar" (ionChange)="onSelectionChange()">
+                  <ion-select-option *ngFor="let asiento of asientosDisponibles" [value]="asiento.idAsiento + '-' + asiento.codigoAsiento">{{ asiento.codigoAsiento }}</ion-select-option>
                 </ion-select>
             </ion-list>
             <ion-button shape="round" (click)="obtenerDatosSeleccionados()">Obtener Datos Seleccionados</ion-button>

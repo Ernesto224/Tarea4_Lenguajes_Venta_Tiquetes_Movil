@@ -1,0 +1,39 @@
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .centered-container {
+    text-align: center;
+  }
+  
+  .artist-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  ion-card {
+    margin-bottom: 16px;
+  }
+  
+  ion-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: white;
+    margin-bottom: 16px;
+  }
+  
+  ::placeholder {
+    color: #666;
+  }
+  
+  ion-button {
+    margin-top: 16px;
+  }
+  

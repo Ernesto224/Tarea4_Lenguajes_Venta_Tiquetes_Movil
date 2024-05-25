@@ -39,7 +39,7 @@ namespace VentaBoletoConciertoAPI.Controllers
         {
             var resultado = await this.gestionarReservaBW.RealizarNuevaReserva(idUsuario, idAsiento, fechaCompra);
 
-            if(resultado)
+            if(!resultado)
             {
                 return NotFound(resultado);
             }

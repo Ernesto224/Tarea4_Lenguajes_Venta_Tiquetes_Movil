@@ -21,11 +21,12 @@ export class SigInPage implements OnInit {
     .set('correoElectronico', this.correoElectronico)
     .set('contrasenia', this.contrasenia);
 
-  this.http.get<any>("https://localhost:7114/api/Usuario", { params }).subscribe(response => {
-    console.log(response);
-    if(response !== null){
-      this.irPaginaPrincipal();
-    }
+    this.http.get<any>("https://localhost:7114/api/Usuario", { params }).subscribe(response => {
+      console.log(response);
+      if(response !== null){
+          sessionStorage.setItem('usuarioData', JSON.stringify(response));
+          this.irPaginaPrincipal();
+      }
   });
 }
   irAlRegistroUsuario(){

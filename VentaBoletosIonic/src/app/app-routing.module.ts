@@ -30,8 +30,9 @@ const routes: Routes = [
   {
     path: 'detail-concert/:id', // Agregar el parámetro id
     loadChildren: () => import('./pages/detail-concert/detail-concert.module').then(m => m.DetailConcertPageModule)
-  },  {
-    path: 'pay-page',
+  },
+  {
+    path: 'pay-page/:id',
     loadChildren: () => import('./pages/pay-page/pay-page.module').then( m => m.PayPagePageModule)
   },
 

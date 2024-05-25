@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
@@ -13,12 +13,12 @@ export class DetailConcertPage implements OnInit {
   concerts: any[] = [];
   cantidadAsientos: number = 0;
   zona: string = '';
-  asientos: string = '';
-  zonas: string[] = []; // Lista de zonas
-  asientosDisponibles: string[] = []; // Lista de asientos
+  asientos: any[] = [];
+  zonas: any[] = []; // Lista de zonas
+  asientosDisponibles: any[] = []; // Lista de asientos
   
 
-  constructor(private route: ActivatedRoute, private http: HttpClient) {}
+  constructor(private route: ActivatedRoute, private http: HttpClient, private router: Router) {}
 
   ngOnInit() {
     const idParam = this.route.snapshot.paramMap.get('id');
@@ -31,7 +31,7 @@ export class DetailConcertPage implements OnInit {
     this.cargarDatosDinamicos();
   }
 
-  obtenerConciertos() {
+  cargarDatosDinamicos() {
     this.http.get<any[]>("https://localhost:7114/api/Concierto").subscribe(
       response => {
         this.concerts = response;
@@ -42,29 +42,45 @@ export class DetailConcertPage implements OnInit {
       }
     );
   }
-  cargarDatosDinamicos() {
-    // Aquí puedes reemplazar estos datos con una llamada a un API si es necesario
-    this.zonas = ['VIP', 'Platea', 'General'];
+
+  obtenerConciertos() {
+    this.http.get<any[]>(`https://localhost:7114/api/TipoZona?idConcierto=${this.concertId}`).subscribe(
+      response => {
+        this.zonas = response;
+      }
+    );
   }
+
   obtenerDatosSeleccionados() {
     console.log('Cantidad de Asientos:', this.cantidadAsientos);
-    console.log('Zona:', this.zona);
+    let zona = this.zonas.find(valor => valor.idTipoZona === this.zona);
+    console.log('Zona:', zona.nombreZona);
     console.log('Asientos:', this.asientos);
+
+    // Redireccionar a la página de pago con los datos seleccionados
+    this.router.navigate(['/pay-page', this.concertId], {
+      queryParams: {
+        cantidadAsientos: this.cantidadAsientos,
+        zona: zona.nombreZona,
+        asientos: this.asientos
+      }
+    });
   }
+
   cargarAsientosDisponibles() {
-    this.asientosDisponibles = this.obtenerAsientosDisponiblesPorZona(this.zona);
+    this.http.get<any[]>(`https://localhost:7114/api/Asientos?idConcierto=${this.concertId}&idTipoZona=${this.zona}`).subscribe(
+      response => {
+        this.asientosDisponibles = response;
+        console.log(this.asientosDisponibles);
+      }
+    );
   }
-  
-  obtenerAsientosDisponiblesPorZona(zona: string): string[] {
-    if (zona === 'VIP') {
-      console.log("VIP");
-      return ['Asiento A1', 'Asiento A2', 'Asiento A3'];
-    } else if (zona === 'Zona B') {
-      return ['Asiento B1', 'Asiento B2', 'Asiento B3'];
-    } else {
-      return [];
+
+  onSelectionChange() {
+    if (this.asientos.length - 1 >= this.cantidadAsientos) {
+      for (let index = 0; this.cantidadAsientos < this.asientos.length; index++) {       
+        this.asientos.pop();  
+      }
     }
   }
-  
-  
 }

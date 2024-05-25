@@ -3,16 +3,23 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>Boletos</ion-title>
+    <ion-title>Reservas</ion-title>
   </ion-toolbar>
 </ion-header>
 <ion-content>
   <ion-list>
-    <ion-item *ngFor="let task of tasks">
-      {{ task }}
-    </ion-item>
+    <div class="login-container" style="background-color: white;">
+      <ion-card *ngFor="let concert of groupedTickets" >
+        <img [src]="concert.asiento.concierto.imagenArtista" />
+        <ion-card-content>
+          <ion-card-title>
+            {{concert.asiento.concierto.nombreArtista}}
+          </ion-card-title>
+          <strong>{{concert.asiento.tipoZona.nombreZona}}: {{concert.asiento.codigoAsiento}}</strong>
+          <p><strong>Fecha de compra: {{ concert.fechaDeCompra | date: 'dd-MM-yyyy HH:mm' }}</strong></p>
+          <p>Pago por boleto: {{concert.asiento.tipoZona.precioAsiento}}$</p>
+        </ion-card-content>
+      </ion-card>
+    </div>
   </ion-list>
-  <ion-button expand="full" routerLink="/add-task">Agregar Nueva Tarea</ion-button>
 </ion-content>
-
-<!-- rickAndMorty proyecto del profe estan las tarjetas para colocar los conciertos.-->
