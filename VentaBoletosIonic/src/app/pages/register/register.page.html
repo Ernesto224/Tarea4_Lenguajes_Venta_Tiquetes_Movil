@@ -7,7 +7,8 @@
       color="primary"></ion-input>
     <ion-input placeholder="Apellidos" type="text" [(ngModel)]="apellidos" class="input-style"
       aria-label="Primary input" color="primary"></ion-input>
-    <ion-datetime display-format="DD/MM/YYYY" [(ngModel)]="fechaNacimiento" class="input-style"></ion-datetime>
+      <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+      <input type="date" id="fechaNacimiento" [(ngModel)]="fechaNacimiento" class="input-style">      
     <ion-input placeholder="Correo electrónico" type="email" [(ngModel)]="correoElectronico" class="input-style"
       aria-label="Primary input" color="primary"></ion-input>
     <ion-input placeholder="Contraseña" type="password" class="input-style" [(ngModel)]="contrasenia"
