@@ -1,0 +1,7 @@
+{
+  "name": "VentaBoletosIonic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
