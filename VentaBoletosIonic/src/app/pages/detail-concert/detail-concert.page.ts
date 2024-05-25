@@ -11,6 +11,12 @@ export class DetailConcertPage implements OnInit {
   concertId: number | null = null;
   concert: any;
   concerts: any[] = [];
+  cantidadAsientos: number = 0;
+  zona: string = '';
+  asientos: string = '';
+  zonas: string[] = []; // Lista de zonas
+  asientosDisponibles: string[] = []; // Lista de asientos
+  
 
   constructor(private route: ActivatedRoute, private http: HttpClient) {}
 
@@ -22,6 +28,7 @@ export class DetailConcertPage implements OnInit {
     } else {
       console.error('ID del concierto no encontrado en la URL');
     }
+    this.cargarDatosDinamicos();
   }
 
   obtenerConciertos() {
@@ -35,5 +42,29 @@ export class DetailConcertPage implements OnInit {
       }
     );
   }
+  cargarDatosDinamicos() {
+    // Aquí puedes reemplazar estos datos con una llamada a un API si es necesario
+    this.zonas = ['VIP', 'Platea', 'General'];
+  }
+  obtenerDatosSeleccionados() {
+    console.log('Cantidad de Asientos:', this.cantidadAsientos);
+    console.log('Zona:', this.zona);
+    console.log('Asientos:', this.asientos);
+  }
+  cargarAsientosDisponibles() {
+    this.asientosDisponibles = this.obtenerAsientosDisponiblesPorZona(this.zona);
+  }
+  
+  obtenerAsientosDisponiblesPorZona(zona: string): string[] {
+    if (zona === 'VIP') {
+      console.log("VIP");
+      return ['Asiento A1', 'Asiento A2', 'Asiento A3'];
+    } else if (zona === 'Zona B') {
+      return ['Asiento B1', 'Asiento B2', 'Asiento B3'];
+    } else {
+      return [];
+    }
+  }
+  
   
 }

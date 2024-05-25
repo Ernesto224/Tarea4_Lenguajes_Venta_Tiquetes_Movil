@@ -1,20 +1,49 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>{{ concert?.nombreArtista }}</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Conciertos</ion-title>
   </ion-toolbar>
 </ion-header>
-
-<ion-content>
-  <ng-container *ngIf="concert; else loading">
-    <img [src]="concert.imagenArtista" />
-    <ion-card-content>
-      <ion-card-title>{{ concert.nombreArtista }}</ion-card-title>
-      <p><strong>{{ concert.fechaEvento | date: 'dd-MM-yyyy HH:mm' }}</strong></p>
-      <p>{{ concert.ubicacionConcierto }}</p>
-    </ion-card-content>
-  </ng-container>
-  <ng-template #loading>
-    <ion-spinner name="dots"></ion-spinner>
-    <p>Cargando datos del concierto...</p>
-  </ng-template>
+<ion-content class="content-container">
+  <ion-grid>
+    <ion-row>
+      <ion-col size-lg="6" size-md="6" size-sm="12" size="12">
+        <div class="centered-container">
+          <ng-container *ngIf="concert; else loading">
+            <img [src]="concert.imagenArtista" />
+            <ion-card-content>
+              <ion-card-title>{{ concert.nombreArtista }}</ion-card-title>
+              <p><strong>{{ concert.fechaEvento | date: 'dd-MM-yyyy HH:mm' }}</strong></p>
+              <p>{{ concert.ubicacionConcierto }}</p>
+            </ion-card-content>
+            <br>
+            <ion-list>
+      
+                <ion-label position="floating">Cantidad de Asientos</ion-label>
+                <ion-input type="number" [(ngModel)]="cantidadAsientos"></ion-input>
+              <br>
+                <ion-label position="floating">Zona</ion-label>
+                <ion-select [(ngModel)]="zona" (ionChange)="cargarAsientosDisponibles()">
+                  <ion-select-option *ngFor="let zona of zonas" [value]="zona">{{ zona }}</ion-select-option>
+                </ion-select>
+              <br>
+                <ion-label position="floating">Asientos</ion-label>
+                <ion-select [(ngModel)]="asientos" multiple="true" cancelText="Cancelar" okText="Aceptar">
+                  <ion-select-option *ngFor="let asiento of asientosDisponibles" [value]="asiento">{{ asiento }}</ion-select-option>
+                </ion-select>
+            </ion-list>
+            <ion-button shape="round" (click)="obtenerDatosSeleccionados()">Obtener Datos Seleccionados</ion-button>
+          </ng-container>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+    <ng-template #loading>
+      <div class="loading-content">
+        <ion-spinner name="dots"></ion-spinner>
+        <p>Cargando datos del concierto...</p>
+      </div>
+    </ng-template>
 </ion-content>
