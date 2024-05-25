@@ -9,9 +9,10 @@ using Venta.BC.Modelos;
 
 namespace Venta.DA.Entidades
 {
-    public class Boleto
+    public class ReservaDTO
     {
-        public int idBoleto { get; set; }
+        public int idUsuario { get; set; }
+        public DateTime fechaDeCompra { get; set; }
         public Asiento? Asiento { get; set; }
     }
 }

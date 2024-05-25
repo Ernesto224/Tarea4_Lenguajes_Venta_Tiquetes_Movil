@@ -32,5 +32,19 @@ namespace VentaBoletoConciertoAPI.Controllers
 
             return Ok(AsientoMapper.AsientosToDTOs((IEnumerable<Asiento>)asientos));
         }
+
+        // GET: api/<AsientosController>
+        [HttpPut]
+        public async Task<ActionResult<bool>> ActualizarReserva(int idAsiento)
+        {
+            var asientos = await this.gestionarAsientosBW.CambiarEstadoAsiento(idAsiento);
+
+            if (!asientos)
+            {
+                return NotFound(asientos);
+            }
+
+            return Ok(asientos);
+        }
     }
 }

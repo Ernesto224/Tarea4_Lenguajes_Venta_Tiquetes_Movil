@@ -16,18 +16,18 @@ namespace Ventan.DA.Entidades
         public int idUsuario { get; set; }
 
         [Required]
-        public string nombre { get; set; }
+        public string? nombre { get; set; }
 
         [Required]
-        public string apellido { get; set; }
+        public string? apellido { get; set; }
 
         [Required]
         public DateTime fechaNacimiento { get; set; }
 
         [Required]
-        public string correoElectronico { get; set; }
+        public string? correoElectronico { get; set; }
 
         [Required]
-        public string contrasenia { get; set; }
+        public string? contrasenia { get; set; }
     }
 }

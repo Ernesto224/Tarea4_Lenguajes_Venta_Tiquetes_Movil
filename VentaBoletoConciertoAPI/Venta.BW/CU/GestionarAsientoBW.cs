@@ -22,5 +22,10 @@ namespace Venta.BW.CU
         {
             return await this.gestionarAsientosDA.AsientosDisponiblesPorConciertoYZona(idConcierto, idTipoZona);
         }
+
+        public async Task<bool> CambiarEstadoAsiento(int idAsiento)
+        {
+            return await this.gestionarAsientosDA.CambiarEstadoAsiento(idAsiento);
+        }
     }
 }

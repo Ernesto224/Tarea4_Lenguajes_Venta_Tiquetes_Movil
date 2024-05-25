@@ -25,6 +25,9 @@ builder.Services.AddTransient<IGestionarConciertoBW, GestionarConciertoBW>();
 builder.Services.AddTransient<IGestionarConciertoDA, GestionarConciertoDA>();
 builder.Services.AddTransient<IGestionarAsientosBW, GestionarAsientoBW>();
 builder.Services.AddTransient<IGestionarAsientosDA, GestionarAsientosDA>();
+builder.Services.AddTransient<IGestionarReservaBW, GestionarReservaBW>();
+builder.Services.AddTransient<IGestionarReservaDA, GestionarReservaDA>();
+
 
 
 var app = builder.Build();

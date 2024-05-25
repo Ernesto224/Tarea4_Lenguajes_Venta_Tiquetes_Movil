@@ -20,6 +20,24 @@ namespace Venta.DA.Acciones
             this._contextoData = contextoData;
         }
 
+        public async Task<Concierto> GetConcierto(int idConcierto)
+        {
+            var concierto  = await this._contextoData.ConciertoDA.FindAsync(idConcierto);
+
+            if (concierto == null)
+            {
+                return null;
+            }
+
+            return new Concierto() {
+                idConcierto = concierto.idConcierto,
+                imagenArtista = concierto.imagenArtista,
+                nombreArtista = concierto.nombreArtista,
+                fechaEvento = concierto.fechaEvento,
+                ubicacionConcierto = concierto.ubicacionConcierto
+            };
+        }
+
         public async Task<IEnumerable> ListarConciertos()
         {
             //se recuperan todos los conciertos y se mapean a un usuario valido

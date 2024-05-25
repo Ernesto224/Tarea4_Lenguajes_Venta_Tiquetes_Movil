@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
 using Venta.BC.Modelos;
 using Venta.BW.Interfaces.BW;
 using VentaBoletoConciertoAPI.Utilitarios;
@@ -30,6 +31,20 @@ namespace VentaBoletoConciertoAPI.Controllers
             }
 
             return Ok(ConciertoMapper.ConciertosToDTOs((IEnumerable<Concierto>)conciertos));
+        }
+
+        // GET: api/<ConciertoController>
+        [HttpGet("{idConcierto}")]
+        public async Task<ActionResult<ConciertoDTO>> Get(int idConcierto)
+        {
+            var concierto = await this.gestionarConciertoBW.GetConcierto(idConcierto);
+
+            if (concierto is null) 
+            {
+                return NotFound(concierto);
+            }
+
+            return Ok(ConciertoMapper.ConciertoToDTO(concierto));
         }
     }
 }

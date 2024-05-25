@@ -5,21 +5,23 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Venta.BC.Modelos;
 using Ventan.DA.Entidades;
 
 namespace Venta.DA.Entidades
 {
-    [Table("boleto")]
-    public class BoletoDA
+    [Table("reserva")]
+    public class ReservaDA
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int idBoleto { get; set; }
+        [Required]
+        public int idUsuario { get; set; }
 
         [Required]
         public int idAsiento { get; set; }
 
         [ForeignKey("idAsiento")]
-        public AsientoDA? asiento { get; set; }
+        public AsientoDA? Asiento { get; set; }
+
+        public DateTime fechaDeCompra { get; set; }
     }
 }

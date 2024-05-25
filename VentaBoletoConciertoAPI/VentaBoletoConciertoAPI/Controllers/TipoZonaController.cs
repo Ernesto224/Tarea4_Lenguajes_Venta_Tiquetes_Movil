@@ -20,9 +20,9 @@ namespace VentaBoletoConciertoAPI.Controllers
 
         // GET: api/<TipoZonaController>
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<TipoZonaDTO>>> Get()
+        public async Task<ActionResult<IEnumerable<TipoZonaDTO>>> Get(int idConcierto)
         {
-            var tiposZona = await this.gestionarTipoZonaBW.ListarTiposDeZonas();
+            var tiposZona = await this.gestionarTipoZonaBW.ListarTiposDeZonas(idConcierto);
 
             if (tiposZona is null) 
             {

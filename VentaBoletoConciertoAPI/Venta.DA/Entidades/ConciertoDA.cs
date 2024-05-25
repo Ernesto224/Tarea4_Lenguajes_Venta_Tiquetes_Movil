@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Ventan.DA.Entidades
 {
-    [Table("concierto")]
+    [Table("Concierto")]
     public class ConciertoDA
     {
         [Key]

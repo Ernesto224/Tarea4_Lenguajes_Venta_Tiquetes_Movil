@@ -11,7 +11,7 @@ namespace Venta.BC.Modelos
     public class AsientoDTO
     {
         public int idAsiento { get; set; }
-        public int numeroAsiento { get; set; }
+        public string? codigoAsiento { get; set; }
 
     }
 }

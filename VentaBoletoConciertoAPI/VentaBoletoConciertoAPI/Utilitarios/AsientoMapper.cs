@@ -11,7 +11,7 @@ namespace VentaBoletoConciertoAPI.Utilitarios
             return new AsientoDTO()
             {
                 idAsiento = asiento.idAsiento,
-                numeroAsiento = asiento.numeroAsiento,
+                codigoAsiento = asiento.codigoAsiento,
             };
         }
 

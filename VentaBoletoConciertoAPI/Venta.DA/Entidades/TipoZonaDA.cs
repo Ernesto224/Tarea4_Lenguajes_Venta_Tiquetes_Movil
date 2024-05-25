@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Venta.DA.Entidades
 {
-    [Table("tipoZona")]
+    [Table("TipoZona")]
     public class TipoZonaDA
     {
         [Key]

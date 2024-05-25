@@ -9,6 +9,6 @@ namespace Venta.BW.Interfaces.DA
 {
     public interface IGestionarTipoZonaDA
     {
-        public Task<IEnumerable> ListarTiposDeZonas();
+        public Task<IEnumerable> ListarTiposDeZonas(int idConcierto);
     }
 }

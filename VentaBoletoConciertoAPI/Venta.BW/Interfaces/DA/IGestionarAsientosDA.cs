@@ -10,5 +10,6 @@ namespace Venta.BW.Interfaces.DA
     public interface IGestionarAsientosDA
     {
         public Task<IEnumerable> AsientosDisponiblesPorConciertoYZona(int idConcierto, int idTipoZona);
+        public Task<bool> CambiarEstadoAsiento(int idAsiento);
     }
 }

@@ -20,17 +20,18 @@ namespace Venta.DA.Acciones
             _contextoData = contextoData;
         }
 
-        public async Task<IEnumerable> ListarTiposDeZonas()
+        public async Task<IEnumerable> ListarTiposDeZonas(int idConcierto)
         {
-            var tiposZona = await this._contextoData.TipoZonaDA.Select(tupla => new TipoZona() 
-            { 
-                idTipoZona = tupla.idTipoZona,
-                nombreZona = tupla.nombreZona,
-                precioAsiento = tupla.precioAsiento,
-            }).ToListAsync();
+            var tiposZona = await this._contextoData.AsientoDA
+                .Where(tupla => tupla.idConcierto == idConcierto)
+                .Select(tupla => tupla.TipoZona).Distinct()
+                .Select(tipoZona => new TipoZona() { 
+                    idTipoZona = tipoZona.idTipoZona,
+                    nombreZona = tipoZona.nombreZona,
+                    precioAsiento = tipoZona.precioAsiento,
+                }).ToListAsync();
 
             return tiposZona;
-
         }
     }
 }

@@ -1,14 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Próximos conciertos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
 <ion-content>
   <ion-list>
     <div class="login-container" style="background-color: white;">
-      <ion-card *ngFor="let concert of concerts" (click)="openConcertDetail(concert.idConcierto)">
+      <ion-card *ngFor="let concert of concerts">
         <img [src]="concert.imagenArtista" />
         <ion-card-content>
-          <ion-card-title>{{ concert.nombreArtista }}</ion-card-title>
-          <p><strong>{{ concert.fechaEvento | date: 'dd-MM-yyyy HH:mm' }}</strong></p>
-          <p>{{ concert.ubicacionConcierto }}</p>
+          <ion-card-title>{{concert.nombreArtista}}</ion-card-title>
+          <p><strong>{{concert.fechaEvento | date: 'dd-MM-yyyy HH:mm'}}</strong></p>
+          <p>{{concert.ubicacionConcierto}}</p>
         </ion-card-content>
+        <ion-button expand="full" (click)="addTask()">Agregar</ion-button>
+        <ion-button expand="full" routerLink="/task-list">Ver Tareas</ion-button>
       </ion-card>
     </div>
   </ion-list>
 </ion-content>
+

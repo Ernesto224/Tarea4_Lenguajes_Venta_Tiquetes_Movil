@@ -26,7 +26,7 @@ create table tipoZona(
 
 create table asiento(
 	idAsiento int primary key identity,
-	numeroAsiento int,
+	codigoAsiento nvarchar(10),
 	idTipoZona int,
 	idConcierto int,
 	reservado bit default(0),
@@ -38,35 +38,14 @@ create table asiento(
 	references concierto(idConcierto)
 )
 
-create table boleto(
-	idBoleto int primary key identity,
-	idAsiento int,
-	constraint fk_asiento_boleto
-	foreign key (idAsiento)
-	references asiento(idAsiento)
-)
-
-create table venta(
-	idVenta int primary key identity,
-	idUsuario int,
-	fechaDeCompra datetime,
-	pagoTotal decimal(18,2),
-	constraint fk_usuario_reserva
-	foreign key (idUsuario)
-	references usuario(idUsuario)
-)
-
-create table ventaBoleto(
-	idVenta int,
-	idBoleto int,
-	constraint fk_venta_reservaBoleto
-	foreign key (idVenta)
-	references venta(idVenta),
-	constraint fk_boleto_reservaBoleto
-	foreign key (idBoleto)
-	references boleto(idBoleto),
-	primary key(idVenta, idBoleto)
-)
+CREATE TABLE reserva (
+    idUsuario INT,
+    idAsiento INT,
+    fechaDeCompra DATETIME,
+    PRIMARY KEY (idUsuario, idAsiento),
+    FOREIGN KEY (idUsuario) REFERENCES usuario(idUsuario),
+    FOREIGN KEY (idAsiento) REFERENCES asiento(idAsiento)
+);
 
 --INSERTS
 --------------------------------------------------------------------------------------------
@@ -116,62 +95,103 @@ INSERT INTO tipoZona (nombreZona, precioAsiento)
 VALUES ('Gramilla', 60.00);
 
 --ASIENTO
--- Asientos para concierto 1
-DECLARE @i INT = 1;
-WHILE @i <= 30
-BEGIN
-    INSERT INTO asiento (numeroAsiento, idTipoZona, idConcieto, reservado)
-    VALUES (@i, CASE 
-                  WHEN @i <= 5 THEN 1 -- VIP
-                  WHEN @i <= 10 THEN 2 -- Diamante
-                  WHEN @i <= 15 THEN 3 -- General
-                  WHEN @i <= 20 THEN 4 -- Platea
-                  ELSE 5 -- Gramilla
-                END, 1, 0);
-    SET @i = @i + 1;
-END;
+-- Insertar asientos en la tabla asiento
+-- Concierto 1, Tipos de zona 1 a 5 (excluyendo tipo de zona 5)
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('A1', 1, 1, 0);
 
--- Asientos para concierto 2
-DECLARE @j INT = 1;
-WHILE @j <= 30
-BEGIN
-    INSERT INTO asiento (numeroAsiento, idTipoZona, idConcieto, reservado)
-    VALUES (@j, CASE 
-                  WHEN @j <= 5 THEN 1 -- VIP
-                  WHEN @j <= 10 THEN 2 -- Diamante
-                  WHEN @j <= 15 THEN 3 -- General
-                  WHEN @j <= 20 THEN 4 -- Platea
-                  ELSE 5 -- Gramilla
-                END, 2, 0);
-    SET @j = @j + 1;
-END;
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('A2', 1, 1, 1);
 
--- Asientos para concierto 3
-DECLARE @k INT = 1;
-WHILE @k <= 30
-BEGIN
-    INSERT INTO asiento (numeroAsiento, idTipoZona, idConcieto, reservado)
-    VALUES (@k, CASE 
-                  WHEN @k <= 5 THEN 1 -- VIP
-                  WHEN @k <= 10 THEN 2 -- Diamante
-                  WHEN @k <= 15 THEN 3 -- General
-                  WHEN @k <= 20 THEN 4 -- Platea
-                  ELSE 5 -- Gramilla
-                END, 3, 0);
-    SET @k = @k + 1;
-END;
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('B1', 2, 1, 0);
 
--- Asientos para concierto 4
-DECLARE @l INT = 1;
-WHILE @l <= 30
-BEGIN
-    INSERT INTO asiento (numeroAsiento, idTipoZona, idConcieto, reservado)
-    VALUES (@l, CASE 
-                  WHEN @l <= 5 THEN 1 -- VIP
-                  WHEN @l <= 10 THEN 2 -- Diamante
-                  WHEN @l <= 15 THEN 3 -- General
-                  WHEN @l <= 20 THEN 4 -- Platea
-                  ELSE 5 -- Gramilla
-                END, 4, 0);
-    SET @l = @l + 1;
-END;
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('B2', 2, 1, 1);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('C1', 3, 1, 0);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('C2', 3, 1, 1);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('D1', 4, 1, 0);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('D2', 4, 1, 1);
+
+-- Concierto 2, Tipos de zona 1 a 5 (excluyendo tipo de zona 4)
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('E1', 1, 2, 0);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('E2', 1, 2, 1);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('F1', 2, 2, 0);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('F2', 2, 2, 1);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('G1', 3, 2, 0);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('G2', 3, 2, 1);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('H1', 5, 2, 0);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('H2', 5, 2, 1);
+
+-- Concierto 3, Tipos de zona 1 a 5 (excluyendo tipo de zona 3)
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('I1', 1, 3, 0);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('I2', 1, 3, 1);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('J1', 2, 3, 0);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('J2', 2, 3, 1);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('K1', 4, 3, 0);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('K2', 4, 3, 1);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('L1', 5, 3, 0);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('L2', 5, 3, 1);
+
+-- Concierto 4, Tipos de zona 1 a 5 (excluyendo tipo de zona 2)
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('M1', 1, 4, 0);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('M2', 1, 4, 1);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('N1', 3, 4, 0);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('N2', 3, 4, 1);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('O1', 4, 4, 0);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('O2', 4, 4, 1);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('P1', 5, 4, 0);
+
+INSERT INTO asiento (codigoAsiento, idTipoZona, idConcierto, reservado)
+VALUES ('P2', 5, 4, 1);

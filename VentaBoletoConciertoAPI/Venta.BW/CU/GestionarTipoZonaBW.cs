@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Venta.BC.Modelos;
 using Venta.BW.Interfaces.BW;
 using Venta.BW.Interfaces.DA;
 
@@ -18,9 +19,9 @@ namespace Venta.BW.CU
             this.gestionarTipoZonaDA = gestionarTipoZonaDA;
         }
 
-        public async Task<IEnumerable> ListarTiposDeZonas()
+        public async Task<IEnumerable> ListarTiposDeZonas(int idConcierto)
         {
-            return await this.gestionarTipoZonaDA.ListarTiposDeZonas(); 
+            return await this.gestionarTipoZonaDA.ListarTiposDeZonas(idConcierto); 
         }
     }
 }

@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TaskService } from 'src/app/task.service';
 import { HttpClient } from '@angular/common/http';
-import { Route, Router } from '@angular/router';
 @Component({
   selector: 'app-concert',
   templateUrl: './concert.page.html',
@@ -13,7 +12,7 @@ export class ConcertPage implements OnInit {
   ngOnInit(): void {
     this.obtenerConciertos();
   }
-  constructor(private taskService: TaskService, private http: HttpClient, private route:Router) { }
+  constructor(private taskService: TaskService, private http: HttpClient) { }
 
   addTask() {
     if (this.task.trim()) {
@@ -26,8 +25,5 @@ export class ConcertPage implements OnInit {
       this.concerts = response;
       console.log(response);
     });
-  }
-  openConcertDetail(concertId: number) {
-    this.route.navigate(['/detail-concert', concertId]);
   }
 }

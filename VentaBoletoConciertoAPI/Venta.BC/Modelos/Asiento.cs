@@ -12,9 +12,9 @@ namespace Venta.BC.Modelos
     public class Asiento
     {
         public int idAsiento { get; set; }
-        public int numeroAsiento { get; set; }
+        public string? codigoAsiento { get; set; }
         public TipoZona? TipoZona { get; set; }
-        public Concierto? concierto { get; set; }
+        public Concierto? Concierto { get; set; }
         public bool reservado { get; set; }
 
     }
